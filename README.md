@@ -128,7 +128,7 @@ scikit-learn, Matplotlib, seaborn, PyWavelets, openpyxl, LightGBM (GBDT baseline
 
 ## 7. What is and is not inside the distributed archive
 
-The journal supplementary file and the GitHub/Zenodo archive contain the code, the synthetic
+The journal supplementary file and the GitHub repository contain the code, the synthetic
 monitoring data and the auxiliary example inputs. They do **not** contain the generated
 experiment artefacts (`example_artifacts/`, `Spatial_LOOCV_Results/`, ~700 MB); these are
 produced by steps 3–7 of §2, which take about 20 min on a CPU. This keeps the archive small
