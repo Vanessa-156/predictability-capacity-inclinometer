@@ -1,0 +1,71 @@
+﻿stress_family,intensity,horizon,RMSE_fixed_config,SD_fixed_config,RMSE_baseline,SD_baseline,fixed_config_better
+noise,Clean,2,0.5868,0.0253,0.5796,0.0313,FALSE
+noise,Noise 5%,2,0.5924,0.025,0.5826,0.0366,FALSE
+noise,Noise 10%,2,0.5885,0.0248,0.58,0.0321,FALSE
+noise,Noise 20%,2,0.589,0.0257,0.5771,0.0292,FALSE
+noise,Noise 30%,2,0.5883,0.0235,0.5743,0.0268,FALSE
+noise,Clean,6,1.1217,0.0731,1.1083,0.0618,FALSE
+noise,Noise 5%,6,1.1215,0.0731,1.106,0.0697,FALSE
+noise,Noise 10%,6,1.1179,0.0614,1.1049,0.0637,FALSE
+noise,Noise 20%,6,1.1189,0.0609,1.1038,0.0718,FALSE
+noise,Noise 30%,6,1.1177,0.0611,1.1046,0.0621,FALSE
+noise,Clean,8,1.3824,0.144,1.3692,0.0937,FALSE
+noise,Noise 5%,8,1.3803,0.1414,1.3737,0.0963,FALSE
+noise,Noise 10%,8,1.3707,0.1253,1.3712,0.0988,TRUE
+noise,Noise 20%,8,1.3713,0.1265,1.3611,0.0854,FALSE
+noise,Noise 30%,8,1.3721,0.1299,1.3773,0.0897,TRUE
+noise,Clean,10,1.57,0.0928,1.5734,0.0993,TRUE
+noise,Noise 5%,10,1.5706,0.0927,1.5771,0.1031,TRUE
+noise,Noise 10%,10,1.5686,0.094,1.5898,0.1217,TRUE
+noise,Noise 20%,10,1.5693,0.0949,1.5825,0.1042,TRUE
+noise,Noise 30%,10,1.5689,0.0954,1.5801,0.0878,TRUE
+noise,Clean,12,1.7547,0.1033,1.8378,0.1285,TRUE
+noise,Noise 5%,12,1.755,0.107,1.8413,0.1265,TRUE
+noise,Noise 10%,12,1.7545,0.1023,1.8577,0.1717,TRUE
+noise,Noise 20%,12,1.7549,0.1022,1.8275,0.1325,TRUE
+noise,Noise 30%,12,1.7583,0.1065,1.8539,0.1504,TRUE
+missing,Clean,2,0.5868,0.0253,0.5796,0.0313,FALSE
+missing,Missing 10%,2,0.5885,0.0262,0.5809,0.031,FALSE
+missing,Missing 20%,2,0.5908,0.0304,0.5761,0.026,FALSE
+missing,Missing 30%,2,0.5916,0.0284,0.5781,0.0284,FALSE
+missing,Missing 50%,2,0.5915,0.0239,0.5749,0.0274,FALSE
+missing,Clean,6,1.1217,0.0731,1.1083,0.0618,FALSE
+missing,Missing 10%,6,1.1225,0.0716,1.1133,0.0753,FALSE
+missing,Missing 20%,6,1.1177,0.0611,1.1058,0.069,FALSE
+missing,Missing 30%,6,1.1173,0.0601,1.1077,0.067,FALSE
+missing,Missing 50%,6,1.1181,0.0593,1.1139,0.0778,FALSE
+missing,Clean,8,1.3824,0.144,1.3692,0.0937,FALSE
+missing,Missing 10%,8,1.3784,0.1382,1.3726,0.0912,FALSE
+missing,Missing 20%,8,1.3697,0.1246,1.3628,0.0859,FALSE
+missing,Missing 30%,8,1.3713,0.1257,1.3696,0.0917,FALSE
+missing,Missing 50%,8,1.359,0.0899,1.3642,0.0872,TRUE
+missing,Clean,10,1.57,0.0928,1.5734,0.0993,TRUE
+missing,Missing 10%,10,1.5689,0.0929,1.589,0.1031,TRUE
+missing,Missing 20%,10,1.5686,0.0941,1.5707,0.0879,TRUE
+missing,Missing 30%,10,1.5691,0.0948,1.5733,0.0979,TRUE
+missing,Missing 50%,10,1.5688,0.0947,1.5726,0.0918,TRUE
+missing,Clean,12,1.7547,0.1033,1.8378,0.1285,TRUE
+missing,Missing 10%,12,1.752,0.1017,1.8501,0.1301,TRUE
+missing,Missing 20%,12,1.7535,0.1024,1.836,0.1272,TRUE
+missing,Missing 30%,12,1.7534,0.1026,1.8418,0.1289,TRUE
+missing,Missing 50%,12,1.7527,0.1036,1.835,0.1298,TRUE
+sparsification,All (0.5m),2,0.5868,0.0253,0.5796,0.0313,FALSE
+sparsification,Every 2 (1.0m),2,0.6018,0.0349,0.5835,0.0328,FALSE
+sparsification,Every 3 (1.5m),2,0.611,0.0402,0.5995,0.0323,FALSE
+sparsification,Every 5 (2.5m),2,0.6406,0.0458,0.6198,0.0351,FALSE
+sparsification,All (0.5m),6,1.1217,0.0731,1.1083,0.0618,FALSE
+sparsification,Every 2 (1.0m),6,1.1193,0.0568,1.0972,0.0629,FALSE
+sparsification,Every 3 (1.5m),6,1.2041,0.1001,1.1595,0.084,FALSE
+sparsification,Every 5 (2.5m),6,1.2165,0.0927,1.1906,0.0719,FALSE
+sparsification,All (0.5m),8,1.3824,0.144,1.3692,0.0937,FALSE
+sparsification,Every 2 (1.0m),8,1.3476,0.0716,1.3336,0.067,FALSE
+sparsification,Every 3 (1.5m),8,1.4191,0.1015,1.3979,0.1251,FALSE
+sparsification,Every 5 (2.5m),8,1.4319,0.1133,1.4384,0.0976,TRUE
+sparsification,All (0.5m),10,1.57,0.0928,1.5734,0.0993,TRUE
+sparsification,Every 2 (1.0m),10,1.5604,0.0683,1.5908,0.0804,TRUE
+sparsification,Every 3 (1.5m),10,1.6373,0.105,1.7008,0.177,TRUE
+sparsification,Every 5 (2.5m),10,1.6173,0.1433,1.5809,0.1532,FALSE
+sparsification,All (0.5m),12,1.7547,0.1033,1.8378,0.1285,TRUE
+sparsification,Every 2 (1.0m),12,1.7417,0.0888,1.7567,0.1051,TRUE
+sparsification,Every 3 (1.5m),12,1.825,0.1837,1.8885,0.1899,TRUE
+sparsification,Every 5 (2.5m),12,1.8611,0.1751,1.8208,0.1468,FALSE

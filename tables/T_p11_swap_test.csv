@@ -1,0 +1,3 @@
+﻿target,n_disp,n_disp_bad,n_water,n_water_bad,p_fisher_two,odds_ratio,p_less,p_greater
+settlement,12,11,3,1,0.0813,22.0,0.9978,0.0813
+anchor,52,36,13,13,0.0274,0.0,0.016,1.0

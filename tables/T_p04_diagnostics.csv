@@ -1,0 +1,61 @@
+block,H,item,caliber,metric,value,ci_lo,ci_hi,n,note
+acf,10,lag1,inc,acf_mean,0.355913,,,155,std=0.1204（训练增量逐节点）
+acf,10,lag2,inc,acf_mean,-0.277857,,,155,std=0.1142（训练增量逐节点）
+acf,10,lag3,inc,acf_mean,-0.268739,,,155,std=0.0628（训练增量逐节点）
+acf,10,lag4,inc,acf_mean,-0.127739,,,155,std=0.1177（训练增量逐节点）
+acf,10,lag5,inc,acf_mean,-0.047668,,,155,std=0.0827（训练增量逐节点）
+ljung_box,10,lag5,inc,p_frac_sig,0.987097,,,155,逐节点 p<0.05 占比
+ljung_box,10,lag5,inc,p_median,0.000000,,,155,逐节点 p 中位数
+variance_ratio,10,q2,cum,VR_mean,1.500693,1.474573,1.526812,155,VR=1 为随机游走；z 均值=2.788，|z|>1.96 占比=0.845
+variance_ratio,10,q5,cum,VR_mean,1.712663,1.609430,1.815896,155,VR=1 为随机游走；z 均值=1.811，|z|>1.96 占比=0.406
+adf,10,test_cum,cum,p_median,0.574558,,,155,拒绝单位根(p<0.05)占比=0.110（随机游走应不拒绝）
+bootstrap,2,V7_wo_VerticalGCN,cum,skill_last,-0.254953,-0.328436,-0.205518,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,2,V7_wo_VerticalGCN,cum,RMSE_last,0.589492,0.518665,0.665377,2000,"RMSE_zero=0.5262[0.4499,0.6058]"
+bootstrap,2,V7_wo_VerticalGCN,inc,skill_last,-0.200793,-0.271385,-0.155033,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,2,V7_wo_VerticalGCN,inc,RMSE_last,0.343761,0.296522,0.393268,2000,"RMSE_zero=0.3137[0.2630,0.3656]"
+bootstrap,2,RIDGE_SAME_INPUT,cum,skill_last,-0.022033,-0.032912,-0.012924,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,2,RIDGE_SAME_INPUT,cum,RMSE_last,0.531982,0.454798,0.612977,2000,"RMSE_zero=0.5262[0.4499,0.6058]"
+bootstrap,2,RIDGE_SAME_INPUT,inc,skill_last,-0.021003,-0.031326,-0.012736,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,2,RIDGE_SAME_INPUT,inc,RMSE_last,0.316983,0.265835,0.368831,2000,"RMSE_zero=0.3137[0.2630,0.3656]"
+bootstrap,2,zero_increment,cum,RMSE_last,0.526216,0.449939,0.605836,2000,skill 恒为 0（参考基线）
+bootstrap,2,zero_increment,inc,RMSE_last,0.313706,0.262989,0.365648,2000,skill 恒为 0（参考基线）
+bootstrap,6,V7_wo_VerticalGCN,cum,skill_last,-0.290677,-0.338306,-0.261381,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,6,V7_wo_VerticalGCN,cum,RMSE_last,1.123950,0.982649,1.246151,2000,"RMSE_zero=0.9893[0.8509,1.1072]"
+bootstrap,6,V7_wo_VerticalGCN,inc,skill_last,-0.217984,-0.317299,-0.165159,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,6,V7_wo_VerticalGCN,inc,RMSE_last,0.351247,0.292754,0.407159,2000,"RMSE_zero=0.3183[0.2556,0.3766]"
+bootstrap,6,RIDGE_SAME_INPUT,cum,skill_last,-0.104841,-0.122897,-0.085552,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,6,RIDGE_SAME_INPUT,cum,RMSE_last,1.039892,0.893302,1.164917,2000,"RMSE_zero=0.9893[0.8509,1.1072]"
+bootstrap,6,RIDGE_SAME_INPUT,inc,skill_last,-0.045575,-0.060871,-0.032404,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,6,RIDGE_SAME_INPUT,inc,RMSE_last,0.325439,0.262229,0.384788,2000,"RMSE_zero=0.3183[0.2556,0.3766]"
+bootstrap,6,zero_increment,cum,RMSE_last,0.989323,0.850859,1.107209,2000,skill 恒为 0（参考基线）
+bootstrap,6,zero_increment,inc,RMSE_last,0.318267,0.255624,0.376634,2000,skill 恒为 0（参考基线）
+bootstrap,8,V7_wo_VerticalGCN,cum,skill_last,-0.319089,-0.367709,-0.287073,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,8,V7_wo_VerticalGCN,cum,RMSE_last,1.369263,1.222491,1.483645,2000,"RMSE_zero=1.1922[1.0517,1.3005]"
+bootstrap,8,V7_wo_VerticalGCN,inc,skill_last,-0.338556,-0.525987,-0.236125,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,8,V7_wo_VerticalGCN,inc,RMSE_last,0.359735,0.302491,0.419252,2000,"RMSE_zero=0.3109[0.2449,0.3773]"
+bootstrap,8,RIDGE_SAME_INPUT,cum,skill_last,-0.167918,-0.189774,-0.141920,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,8,RIDGE_SAME_INPUT,cum,RMSE_last,1.288416,1.133875,1.408009,2000,"RMSE_zero=1.1922[1.0517,1.3005]"
+bootstrap,8,RIDGE_SAME_INPUT,inc,skill_last,-0.066906,-0.089752,-0.046084,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,8,RIDGE_SAME_INPUT,inc,RMSE_last,0.321165,0.253236,0.389077,2000,"RMSE_zero=0.3109[0.2449,0.3773]"
+bootstrap,8,zero_increment,cum,RMSE_last,1.192202,1.051709,1.300542,2000,skill 恒为 0（参考基线）
+bootstrap,8,zero_increment,inc,RMSE_last,0.310932,0.244890,0.377254,2000,skill 恒为 0（参考基线）
+bootstrap,10,V7_wo_VerticalGCN,cum,skill_last,-0.307332,-0.338736,-0.281704,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,10,V7_wo_VerticalGCN,cum,RMSE_last,1.568738,1.449580,1.660271,2000,"RMSE_zero=1.3720[1.2579,1.4527]"
+bootstrap,10,V7_wo_VerticalGCN,inc,skill_last,-0.243023,-0.355204,-0.176892,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,10,V7_wo_VerticalGCN,inc,RMSE_last,0.323612,0.276701,0.379824,2000,"RMSE_zero=0.2903[0.2380,0.3508]"
+bootstrap,10,RIDGE_SAME_INPUT,cum,skill_last,-0.242959,-0.264966,-0.216200,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,10,RIDGE_SAME_INPUT,cum,RMSE_last,1.529628,1.401692,1.627111,2000,"RMSE_zero=1.3720[1.2579,1.4527]"
+bootstrap,10,RIDGE_SAME_INPUT,inc,skill_last,-0.071378,-0.103299,-0.052411,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,10,RIDGE_SAME_INPUT,inc,RMSE_last,0.300439,0.248012,0.360752,2000,"RMSE_zero=0.2903[0.2380,0.3508]"
+bootstrap,10,zero_increment,cum,RMSE_last,1.372010,1.257914,1.452748,2000,skill 恒为 0（参考基线）
+bootstrap,10,zero_increment,inc,RMSE_last,0.290258,0.238049,0.350751,2000,skill 恒为 0（参考基线）
+bootstrap,12,V7_wo_VerticalGCN,cum,skill_last,-0.320649,-0.346980,-0.297206,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,12,V7_wo_VerticalGCN,cum,RMSE_last,1.751686,1.671130,1.831187,2000,"RMSE_zero=1.5243[1.4435,1.5912]"
+bootstrap,12,V7_wo_VerticalGCN,inc,skill_last,-0.397724,-0.533000,-0.325622,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,12,V7_wo_VerticalGCN,inc,RMSE_last,0.308795,0.277386,0.330798,2000,"RMSE_zero=0.2612[0.2258,0.2851]"
+bootstrap,12,RIDGE_SAME_INPUT,cum,skill_last,-0.313001,-0.326375,-0.297241,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,12,RIDGE_SAME_INPUT,cum,RMSE_last,1.746607,1.658209,1.829539,2000,"RMSE_zero=1.5243[1.4435,1.5912]"
+bootstrap,12,RIDGE_SAME_INPUT,inc,skill_last,-0.066277,-0.088746,-0.046917,2000,"L=3,B=2000,seed=42,重采样窗口"
+bootstrap,12,RIDGE_SAME_INPUT,inc,RMSE_last,0.269709,0.234808,0.293333,2000,"RMSE_zero=0.2612[0.2258,0.2851]"
+bootstrap,12,zero_increment,cum,RMSE_last,1.524272,1.443526,1.591235,2000,skill 恒为 0（参考基线）
+bootstrap,12,zero_increment,inc,RMSE_last,0.261192,0.225759,0.285095,2000,skill 恒为 0（参考基线）

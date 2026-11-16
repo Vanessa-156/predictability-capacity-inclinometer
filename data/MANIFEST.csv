@@ -1,0 +1,75 @@
+﻿file,category,rows,columns,description,si_section,main_claim,target_folder,status
+tables/_loocv_fold_paired.csv,loocv,25,8,loocv result table,S4.3,Leave-one-section-out overfitting check,tables/,released
+tables/_loocv_pattern_corr.csv,loocv,25,6,loocv result table,S4.3,Leave-one-section-out overfitting check,tables/,released
+tables/pca_floor_by_k.csv,configuration,20,14,configuration result table,S4.3 / S5.1,Depth point density and depth coverage,tables/,released
+tables/T1_long.csv,model_comparison,341,10,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T1_MAE_last_wide.csv,model_comparison,14,16,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+legacy/T1_ours_source_V5_vs_V7.csv,legacy,0,9,V5-versus-V7 source comparison (header only; no data rows),S7.1,Superseded V5 convention,legacy/,legacy_header_only
+tables/T1_R2_last_wide.csv,model_comparison,14,16,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T1_RMSE_last_wide.csv,model_comparison,15,16,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T1_skill_last_long.csv,model_comparison,61,10,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T1_skill_last_wide.csv,model_comparison,13,6,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T2_ablation_delta_vs_V5.csv,ablation,240,8,ablation result table,S4.1 / S4.2,Modules do not move the representation floor,tables/,released
+tables/T2_ablation_delta_vs_V7.csv,ablation,240,9,ablation result table,S4.1 / S4.2,Modules do not move the representation floor,tables/,released
+tables/T2_ablation_long.csv,ablation,240,10,ablation result table,S4.1 / S4.2,Modules do not move the representation floor,tables/,released
+tables/T2_ablation_skill_last.csv,ablation,10,6,ablation result table,S4.1 / S4.2,Modules do not move the representation floor,tables/,released
+tables/T3_significance_ablation.csv,model_comparison,35,12,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T3_significance_ablation_OursV5.csv,model_comparison,35,18,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T3_significance_comparison.csv,model_comparison,41,23,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T3_significance_comparison_OursV5.csv,model_comparison,41,20,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T4_ours_grid.csv,model_comparison,30,10,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T5a_decomposition_comparison.csv,ablation,46,16,ablation result table,S4.1 / S4.2,Modules do not move the representation floor,tables/,released
+tables/T5b_decomposition_ablation.csv,ablation,40,16,ablation result table,S4.1 / S4.2,Modules do not move the representation floor,tables/,released
+tables/T6_physgate_depth.csv,ablation,65,15,ablation result table,S4.1 / S4.2,Modules do not move the representation floor,tables/,released
+logs/T_b05_convergence_by_run.csv,convergence,2250,24,convergence result table,S4.1,Training convergence and early stopping,logs/,log
+logs/T_b05_convergence_summary.csv,convergence,75,22,convergence result table,S4.1,Training convergence and early stopping,logs/,log
+tables/T_DEFENSE.csv,stress,70,9,stress result table,S4.3 / S5.8,Disturbance sensitivity of the error and bound,tables/,released
+tables/T_g4_config_capacity.csv,configuration,240,22,configuration result table,S4.3 / S5.1,Depth point density and depth coverage,tables/,released
+tables/T_g4_config_summary.csv,configuration,8,29,configuration result table,S4.3 / S5.1,Depth point density and depth coverage,tables/,released
+tables/T_p02_autocorr.csv,inference,37,4,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p02_block_bootstrap.csv,inference,710,13,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p02_variance_components.csv,inference,31,7,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p02_walkforward.csv,inference,120,8,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p02_walkforward_fold.csv,inference,24,11,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p02_walkforward_selection.csv,inference,12,5,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p03_config_capacity.csv,configuration,240,17,configuration result table,S4.3 / S5.1,Depth point density and depth coverage,tables/,released
+tables/T_p03_config_summary.csv,configuration,8,19,configuration result table,S4.3 / S5.1,Depth point density and depth coverage,tables/,released
+tables/T_p04_diagnostics.csv,inference,60,10,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p04_increment_caliber.csv,uncertainty,1313,6,uncertainty result table,S5.4 / S5.5,Interval width against tier spacing,tables/,released
+tables/T_p05_stage_input.csv,vicd,6,10,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_p05_vicd_stage.csv,vicd,20,19,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_p06_deep_neg.csv,deep_nodes,155,7,deep_nodes result table,S5.7,Deep negative readings and the deep-band check,tables/,released
+tables/T_p06_nodeep.csv,deep_nodes,30,17,deep_nodes result table,S5.7,Deep negative readings and the deep-band check,tables/,released
+tables/T_p06_selection.csv,deep_nodes,120,8,deep_nodes result table,S5.7,Deep negative readings and the deep-band check,tables/,released
+tables/T_p06_stage2_anchor.csv,deep_nodes,3,13,deep_nodes result table,S5.7,Deep negative readings and the deep-band check,tables/,released
+tables/T_p06_stage2_final.csv,deep_nodes,3,14,deep_nodes result table,S5.7,Deep negative readings and the deep-band check,tables/,released
+tables/T_p06_stage2_fold.csv,deep_nodes,270,15,deep_nodes result table,S5.7,Deep negative readings and the deep-band check,tables/,released
+tables/T_p06_stage2_selection.csv,deep_nodes,5,8,deep_nodes result table,S5.7,Deep negative readings and the deep-band check,tables/,released
+tables/T_p07_conformal.csv,uncertainty,180,10,uncertainty result table,S5.4 / S5.5,Interval width against tier spacing,tables/,released
+tables/T_p07_ensemble.csv,uncertainty,5,13,uncertainty result table,S5.4 / S5.5,Interval width against tier spacing,tables/,released
+tables/T_p08_lc_summary.csv,learning,20,13,learning result table,S4.6,Learning curve and model-scale sweep,tables/,released
+tables/T_p08_learning_curve.csv,learning,100,15,learning result table,S4.6,Learning curve and model-scale sweep,tables/,released
+tables/T_p10_noise_floor.csv,vicd,155,18,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_p11_swap_test.csv,vicd,2,9,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_p11_water_inject.csv,vicd,5,4,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_p1215_new_runs.csv,model_comparison,480,24,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T_p1215_significance.csv,model_comparison,57,15,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T_p1215_summary.csv,model_comparison,62,21,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T_p14_argmax.csv,vicd,3,7,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_p14_voi.csv,vicd,240,7,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_p17_rollorig_zero.csv,inference,12,4,inference result table,S5.4 / S4.5,Seed versus time-window uncertainty,tables/,released
+tables/T_p19_digitization_unc.csv,cross_site,10,5,cross_site result table,S6.1-S6.7,State and site dependence of predictability,tables/,released
+tables/T_p19_skill_regression.csv,cross_site,6,11,cross_site result table,S6.1-S6.7,State and site dependence of predictability,tables/,released
+tables/T_p19_skill_states.csv,cross_site,245,21,cross_site result table,S6.1-S6.7,State and site dependence of predictability,tables/,released
+tables/T_persist_baseline.csv,model_comparison,5,8,model_comparison result table,S4.2 / S5.4,Models trail the zero-change forecast,tables/,released
+tables/T_release_script_scan.csv,vicd,60,4,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,released
+tables/T_robustness.csv,stress,70,9,stress result table,S4.3 / S5.8,Disturbance sensitivity of the error and bound,tables/,released
+tables/T_spectrum_by_density.csv,configuration,4,24,configuration result table,S4.3 / S5.1,Depth point density and depth coverage,tables/,released
+data/SuppData_VICD_records_EN.csv,submission_data,68,19,Per-record VICD inputs and Stage-1 verdicts (68 records),Data files,Core reported results,data/,submitted
+data/SuppData_derived_target_EN.csv,submission_data,4260,4,De-identified section- and layer-mean target series,Data files,Core reported results,data/,submitted
+data/SuppData_stress_results.csv,submission_data,70,8,"Stress-scan results (noise, missing, sparsification)",Data files,Core reported results,data/,submitted
+data/SuppData_model_results.csv,submission_data,7541,10,"Long table: model comparison, ablation, per-seed and walk-forward results",Data files,Core reported results,data/,submitted
+data/SuppData_cross_site_results.csv,submission_data,4207,11,"Long table: Tan, Liugou and 29-project cross-site results",Data files,Core reported results,data/,submitted
+source/T_stress_raw.csv,stress,70,8,Chinese-header source of SuppData_stress_results.csv (not released),S4.3 / S5.8,Disturbance sensitivity of the error and bound,not_released/,source_only
+data/SuppData_S6_water_pairwise_EN.csv,submission_data,216,17,Complete water-level pairwise table behind S6.4.4,S6.4.4,Input admissibility at the Tan site,data/,submitted
+data/SuppData_S6_liugou_records_EN.csv,submission_data,48,17,Complete per-record verdict table behind S6.6.2,S6.6.2,Cross-scenario applicability boundary,data/,submitted

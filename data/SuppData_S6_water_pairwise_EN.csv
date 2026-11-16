@@ -1,0 +1,217 @@
+﻿u,Q,n,M1,thr,M2,thr,M3,thr,M4,thr,MLEV,thr,T_obs,T_0.95,argmax,Stage 1
+CY1,Q1,514,0.204,0.197,0.073,0.051,0.115,0.130,0.204,0.228,0.228,0.705,1.44,1.12,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q2,515,0.204,0.202,0.020,0.013,0.329,0.263,0.229,0.221,0.299,0.754,1.49,1.15,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q3,514,0.201,0.221,0.167,0.121,0.039,0.044,0.201,0.251,0.297,0.712,1.38,1.13,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q4,514,0.161,0.196,0.072,0.052,0.108,0.139,0.161,0.231,0.280,0.780,1.40,1.18,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q5,513,0.184,0.241,0.027,0.024,0.210,0.246,0.184,0.263,0.325,0.731,1.12,1.15,M2_inc_mi,unusable
+CY1,Q6,508,0.161,0.275,0.125,0.093,0.167,0.155,0.175,0.300,0.311,0.807,1.34,1.07,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q7,400,0.198,0.326,0.042,0.043,0.317,0.350,0.198,0.368,0.189,0.811,0.97,1.06,M2_inc_mi,unusable
+CY1,Q8,401,0.247,0.275,0.101,0.076,0.185,0.167,0.249,0.313,0.173,0.805,1.33,1.11,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q9,401,0.262,0.293,0.114,0.080,0.164,0.165,0.268,0.322,0.127,0.782,1.42,1.09,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q10,401,0.258,0.287,0.092,0.078,0.197,0.181,0.263,0.316,0.060,0.766,1.17,1.13,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q11,401,0.233,0.321,0.195,0.142,0.205,0.190,0.265,0.357,0.079,0.784,1.37,1.08,M2_inc_mi,boundary crossing (re-examination required)
+CY1,Q12,400,0.213,0.321,0.041,0.034,0.307,0.325,0.225,0.346,0.079,0.764,1.22,1.09,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q1,510,0.137,0.139,0.071,0.045,0.143,0.103,0.147,0.165,0.244,0.688,1.59,1.17,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q2,512,0.101,0.138,0.018,0.011,0.281,0.183,0.129,0.165,0.329,0.744,1.56,1.13,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q3,510,0.096,0.141,0.188,0.089,0.036,0.030,0.177,0.162,0.324,0.687,2.10,1.18,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q4,510,0.018,0.136,0.076,0.043,0.059,0.097,0.155,0.162,0.306,0.761,1.77,1.17,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q5,509,0.001,0.161,0.027,0.021,0.148,0.162,0.160,0.195,0.349,0.754,1.28,1.17,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q6,504,0.088,0.168,0.142,0.073,0.126,0.095,0.206,0.191,0.337,0.820,1.94,1.14,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q7,396,0.036,0.200,0.040,0.027,0.207,0.207,0.179,0.240,0.225,0.829,1.48,1.14,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q8,397,0.128,0.176,0.104,0.064,0.154,0.126,0.188,0.206,0.208,0.812,1.62,1.14,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q9,397,0.159,0.182,0.111,0.069,0.172,0.108,0.176,0.214,0.156,0.809,1.62,1.17,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q10,397,0.215,0.185,0.107,0.066,0.281,0.130,0.215,0.212,0.081,0.760,2.16,1.16,M3_sign_gain,boundary crossing (re-examination required)
+CY2,Q11,397,0.126,0.195,0.221,0.106,0.184,0.117,0.166,0.229,0.102,0.784,2.08,1.14,M2_inc_mi,boundary crossing (re-examination required)
+CY2,Q12,396,0.150,0.192,0.040,0.027,0.300,0.227,0.150,0.225,0.103,0.782,1.48,1.16,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q1,507,0.198,0.205,0.077,0.054,0.164,0.135,0.214,0.226,0.289,0.697,1.42,1.12,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q2,507,0.172,0.194,0.020,0.014,0.321,0.256,0.198,0.221,0.376,0.749,1.42,1.13,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q3,507,0.117,0.209,0.180,0.121,0.022,0.043,0.184,0.235,0.370,0.689,1.48,1.19,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q4,507,0.066,0.193,0.076,0.054,0.062,0.136,0.133,0.216,0.356,0.753,1.41,1.15,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q5,507,0.091,0.231,0.024,0.024,0.167,0.246,0.186,0.266,0.397,0.742,0.99,1.16,M2_inc_mi,unusable
+CY3,Q6,504,0.114,0.269,0.135,0.094,0.167,0.144,0.186,0.300,0.388,0.820,1.43,1.13,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q7,396,0.133,0.322,0.029,0.034,0.224,0.345,0.215,0.364,0.280,0.846,0.87,1.12,M2_inc_mi,unusable
+CY3,Q8,397,0.233,0.274,0.103,0.077,0.145,0.173,0.233,0.323,0.262,0.806,1.33,1.12,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q9,397,0.262,0.295,0.119,0.084,0.142,0.164,0.262,0.327,0.209,0.801,1.42,1.10,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q10,397,0.270,0.296,0.089,0.079,0.230,0.189,0.270,0.343,0.133,0.774,1.22,1.06,M3_sign_gain,boundary crossing (re-examination required)
+CY3,Q11,397,0.230,0.318,0.200,0.140,0.203,0.189,0.267,0.343,0.155,0.775,1.43,1.07,M2_inc_mi,boundary crossing (re-examination required)
+CY3,Q12,396,0.241,0.312,0.040,0.034,0.368,0.337,0.244,0.361,0.156,0.772,1.18,1.09,M2_inc_mi,boundary crossing (re-examination required)
+CY4,Q1,514,0.164,0.188,0.046,0.049,0.109,0.122,0.182,0.214,0.249,0.687,0.94,1.14,M2_inc_mi,unusable
+CY4,Q2,515,0.166,0.165,0.016,0.012,0.232,0.238,0.178,0.207,0.326,0.760,1.33,1.17,M2_inc_mi,boundary crossing (re-examination required)
+CY4,Q3,514,0.152,0.196,0.155,0.105,0.024,0.034,0.152,0.224,0.325,0.658,1.47,1.16,M2_inc_mi,boundary crossing (re-examination required)
+CY4,Q4,514,0.097,0.174,0.062,0.049,0.081,0.123,0.097,0.203,0.311,0.757,1.26,1.13,M2_inc_mi,boundary crossing (re-examination required)
+CY4,Q5,513,0.112,0.206,0.025,0.022,0.071,0.204,0.128,0.239,0.355,0.738,1.13,1.14,M2_inc_mi,unusable
+CY4,Q6,508,0.102,0.228,0.101,0.083,0.158,0.133,0.107,0.262,0.344,0.808,1.21,1.12,M2_inc_mi,boundary crossing (re-examination required)
+CY4,Q7,400,0.153,0.280,0.038,0.038,0.250,0.283,0.153,0.318,0.222,0.824,1.00,1.09,M2_inc_mi,unusable
+CY4,Q8,401,0.209,0.239,0.084,0.072,0.176,0.149,0.211,0.268,0.202,0.812,1.18,1.18,M3_sign_gain,boundary crossing (re-examination required)
+CY4,Q9,401,0.251,0.253,0.107,0.076,0.137,0.156,0.251,0.285,0.152,0.803,1.41,1.06,M2_inc_mi,boundary crossing (re-examination required)
+CY4,Q10,401,0.237,0.254,0.090,0.073,0.217,0.172,0.243,0.284,0.079,0.752,1.26,1.11,M3_sign_gain,boundary crossing (re-examination required)
+CY4,Q11,401,0.201,0.276,0.174,0.127,0.189,0.160,0.241,0.305,0.102,0.783,1.37,1.11,M2_inc_mi,boundary crossing (re-examination required)
+CY4,Q12,400,0.169,0.279,0.031,0.031,0.191,0.289,0.231,0.325,0.102,0.776,1.00,1.07,M2_inc_mi,unusable
+SW1,Q1,313,0.004,0.103,0.081,0.098,0.078,0.085,0.061,0.136,0.393,0.410,0.92,1.19,M3_sign_gain,unusable
+SW1,Q2,311,0.044,0.109,0.035,0.037,0.198,0.128,0.197,0.135,0.453,0.399,1.55,1.15,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q3,308,0.146,0.102,0.175,0.174,0.112,0.037,0.146,0.132,0.412,0.373,2.98,1.12,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q4,314,0.121,0.102,0.096,0.102,0.154,0.085,0.121,0.138,0.478,0.395,1.83,1.26,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q5,313,0.126,0.105,0.041,0.044,0.245,0.110,0.126,0.130,0.445,0.401,2.22,1.15,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q6,310,0.034,0.098,0.147,0.166,0.111,0.060,0.059,0.129,0.316,0.368,1.85,1.18,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q7,313,0.067,0.092,0.060,0.060,0.254,0.093,0.084,0.126,0.427,0.393,2.74,1.19,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q8,305,0.151,0.097,0.139,0.111,0.090,0.083,0.151,0.122,0.320,0.370,1.57,1.18,M1_inc_corr,boundary crossing (re-examination required)
+SW1,Q9,314,0.098,0.107,0.105,0.127,0.177,0.076,0.098,0.135,0.392,0.407,2.33,1.20,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q10,314,0.019,0.104,0.117,0.117,0.129,0.072,0.056,0.129,0.382,0.412,1.78,1.17,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q11,310,0.006,0.107,0.157,0.168,0.094,0.055,0.040,0.137,0.318,0.408,1.71,1.17,M3_sign_gain,boundary crossing (re-examination required)
+SW1,Q12,313,0.022,0.090,0.030,0.044,0.205,0.097,0.061,0.118,0.367,0.407,2.11,1.29,M3_sign_gain,boundary crossing (re-examination required)
+SW2,Q1,196,0.010,0.132,0.192,0.187,0.011,0.088,0.104,0.168,0.452,0.527,1.03,1.23,M2_inc_mi,unusable
+SW2,Q2,196,0.046,0.126,0.068,0.076,0.000,0.125,0.211,0.168,0.399,0.477,1.25,1.20,M4_lead_max,boundary crossing (re-examination required)
+SW2,Q3,196,0.024,0.114,0.304,0.294,0.024,0.044,0.172,0.142,0.382,0.476,1.22,1.31,M4_lead_max,unusable
+SW2,Q4,196,0.122,0.126,0.201,0.197,0.010,0.085,0.122,0.164,0.352,0.483,1.02,1.13,M2_inc_mi,unusable
+SW2,Q5,196,0.062,0.123,0.055,0.068,0.043,0.125,0.065,0.164,0.375,0.484,0.80,1.12,M2_inc_mi,unusable
+SW2,Q6,196,0.008,0.121,0.295,0.293,0.013,0.062,0.139,0.163,0.364,0.508,1.01,1.26,M2_inc_mi,unusable
+SW2,Q7,196,0.025,0.123,0.048,0.070,0.008,0.100,0.056,0.166,0.384,0.503,0.68,1.15,M2_inc_mi,unusable
+SW2,Q8,196,0.013,0.130,0.181,0.202,0.009,0.089,0.061,0.165,0.394,0.494,0.90,1.10,M2_inc_mi,unusable
+SW2,Q9,196,0.005,0.119,0.203,0.233,0.004,0.077,0.036,0.155,0.444,0.490,0.87,1.20,M2_inc_mi,unusable
+SW2,Q10,196,0.002,0.129,0.195,0.217,0.013,0.085,0.045,0.150,0.472,0.505,0.90,1.20,M2_inc_mi,unusable
+SW2,Q11,196,0.011,0.119,0.315,0.300,0.021,0.059,0.193,0.161,0.461,0.519,1.19,1.20,M4_lead_max,unusable
+SW2,Q12,196,0.001,0.124,0.067,0.089,0.017,0.098,0.054,0.160,0.469,0.512,0.75,1.16,M2_inc_mi,unusable
+SW4,Q1,554,0.036,0.072,0.036,0.040,0.069,0.081,0.036,0.089,0.138,0.449,0.91,1.17,M2_inc_mi,unusable
+SW4,Q2,554,0.009,0.073,0.013,0.018,0.058,0.110,0.053,0.090,0.139,0.410,0.70,1.21,M2_inc_mi,unusable
+SW4,Q3,549,0.039,0.068,0.130,0.083,0.054,0.027,0.057,0.088,0.089,0.401,1.98,1.25,M3_sign_gain,boundary crossing (re-examination required)
+SW4,Q4,555,0.001,0.082,0.051,0.047,0.098,0.081,0.044,0.107,0.120,0.411,1.22,1.14,M3_sign_gain,boundary crossing (re-examination required)
+SW4,Q5,553,0.013,0.074,0.027,0.026,0.129,0.091,0.023,0.095,0.117,0.403,1.41,1.15,M3_sign_gain,boundary crossing (re-examination required)
+SW4,Q6,545,0.032,0.076,0.067,0.070,0.077,0.056,0.032,0.100,0.152,0.435,1.37,1.14,M3_sign_gain,boundary crossing (re-examination required)
+SW4,Q7,440,0.024,0.074,0.030,0.032,0.210,0.093,0.040,0.086,0.178,0.333,2.27,1.18,M3_sign_gain,boundary crossing (re-examination required)
+SW4,Q8,433,0.030,0.085,0.059,0.060,0.042,0.079,0.030,0.103,0.185,0.356,0.99,1.09,M2_inc_mi,unusable
+SW4,Q9,442,0.013,0.083,0.071,0.068,0.022,0.064,0.046,0.102,0.196,0.339,1.05,1.24,M2_inc_mi,unusable
+SW4,Q10,442,0.010,0.088,0.073,0.067,0.008,0.063,0.014,0.113,0.204,0.357,1.09,1.20,M2_inc_mi,unusable
+SW4,Q11,438,0.001,0.088,0.096,0.096,0.051,0.057,0.024,0.110,0.196,0.334,1.01,1.13,M2_inc_mi,unusable
+SW4,Q12,440,0.027,0.074,0.018,0.022,0.087,0.087,0.027,0.089,0.196,0.339,1.00,1.22,M3_sign_gain,unusable
+SW5,Q1,180,0.068,0.143,0.177,0.208,0.114,0.094,0.095,0.179,0.179,0.376,1.21,1.22,M3_sign_gain,unusable
+SW5,Q2,180,0.024,0.156,0.062,0.074,0.045,0.150,0.117,0.182,0.268,0.358,0.84,1.16,M2_inc_mi,unusable
+SW5,Q3,180,0.060,0.123,0.329,0.304,0.078,0.048,0.093,0.160,0.273,0.362,1.64,1.19,M3_sign_gain,boundary crossing (re-examination required)
+SW5,Q4,180,0.096,0.133,0.184,0.215,0.026,0.090,0.139,0.172,0.273,0.368,0.86,1.21,M2_inc_mi,unusable
+SW5,Q5,180,0.033,0.145,0.067,0.075,0.090,0.117,0.045,0.172,0.267,0.388,0.89,1.19,M2_inc_mi,unusable
+SW5,Q6,180,0.021,0.137,0.347,0.330,0.096,0.067,0.059,0.178,0.272,0.364,1.43,1.14,M3_sign_gain,boundary crossing (re-examination required)
+SW5,Q7,180,0.021,0.136,0.089,0.103,0.076,0.100,0.045,0.170,0.275,0.376,0.87,1.27,M2_inc_mi,unusable
+SW5,Q8,180,0.234,0.152,0.201,0.235,0.005,0.095,0.234,0.193,0.224,0.369,1.54,1.12,M1_inc_corr,boundary crossing (re-examination required)
+SW5,Q9,180,0.108,0.142,0.247,0.275,0.000,0.081,0.108,0.179,0.181,0.384,0.90,1.10,M2_inc_mi,unusable
+SW5,Q10,180,0.018,0.122,0.238,0.254,0.033,0.081,0.046,0.156,0.127,0.371,0.94,1.13,M2_inc_mi,unusable
+SW5,Q11,180,0.001,0.129,0.310,0.326,0.070,0.054,0.076,0.161,0.153,0.374,1.29,1.22,M3_sign_gain,boundary crossing (re-examination required)
+SW5,Q12,180,0.011,0.137,0.090,0.102,0.058,0.107,0.057,0.162,0.166,0.356,0.88,1.14,M2_inc_mi,unusable
+SW6,Q1,60,0.176,0.265,0.121,0.143,0.000,0.300,0.226,0.346,0.494,0.736,0.85,1.10,M2_inc_mi,unusable
+SW6,Q2,60,0.085,0.260,0.035,0.045,—,—,0.166,0.357,0.486,0.694,0.76,1.17,M2_inc_mi,unusable
+SW6,Q3,60,—,—,0.000,0.000,0.079,0.076,—,—,0.658,0.722,1.04,1.00,M3_sign_gain,boundary crossing (re-examination required)
+SW6,Q4,60,—,—,0.000,0.000,—,—,—,—,—,—,—,—,nan,boundary crossing (re-examination required)
+SW6,Q5,60,0.003,0.253,0.035,0.045,—,—,0.155,0.338,0.081,0.368,0.76,1.11,M2_inc_mi,unusable
+SW6,Q6,60,0.188,0.253,0.218,0.237,0.145,0.145,0.188,0.310,0.069,0.227,1.00,1.22,M3_sign_gain,unusable
+SW6,Q7,57,—,—,0.000,0.000,—,—,—,—,—,—,—,—,nan,boundary crossing (re-examination required)
+SW6,Q8,58,0.180,0.262,0.057,0.065,—,—,0.180,0.353,0.383,0.683,0.87,1.16,M2_inc_mi,unusable
+SW6,Q9,58,0.007,0.264,0.066,0.077,—,—,0.152,0.323,0.450,0.714,0.86,1.13,M2_inc_mi,unusable
+SW6,Q10,58,0.029,0.242,0.165,0.187,0.083,0.269,0.161,0.332,0.462,0.685,0.88,1.17,M2_inc_mi,unusable
+SW6,Q11,58,0.030,0.265,0.168,0.181,0.192,0.286,0.277,0.347,0.111,0.483,0.93,1.13,M2_inc_mi,unusable
+SW6,Q12,57,0.144,0.260,0.036,0.047,—,—,0.271,0.340,0.117,0.477,0.80,1.11,M4_lead_max,unusable
+SW7,Q1,506,0.001,0.077,0.052,0.052,0.017,0.078,0.060,0.094,0.606,0.576,1.00,1.17,M2_inc_mi,unusable
+SW7,Q2,504,0.011,0.078,0.031,0.019,0.109,0.110,0.058,0.100,0.613,0.531,1.60,1.15,M2_inc_mi,boundary crossing (re-examination required)
+SW7,Q3,501,0.017,0.070,0.154,0.082,0.007,0.028,0.058,0.089,0.630,0.526,1.87,1.21,M2_inc_mi,boundary crossing (re-examination required)
+SW7,Q4,507,0.098,0.079,0.081,0.051,0.062,0.071,0.098,0.101,0.558,0.540,1.57,1.20,M2_inc_mi,boundary crossing (re-examination required)
+SW7,Q5,506,0.109,0.068,0.045,0.027,0.214,0.080,0.109,0.086,0.603,0.563,2.69,1.28,M3_sign_gain,boundary crossing (re-examination required)
+SW7,Q6,503,0.001,0.076,0.109,0.078,0.031,0.052,0.059,0.103,0.668,0.592,1.40,1.15,M2_inc_mi,boundary crossing (re-examination required)
+SW7,Q7,440,0.003,0.077,0.036,0.032,0.167,0.080,0.088,0.095,0.561,0.557,2.08,1.25,M3_sign_gain,boundary crossing (re-examination required)
+SW7,Q8,433,0.079,0.074,0.082,0.060,0.069,0.079,0.079,0.097,0.661,0.547,1.37,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW7,Q9,442,0.096,0.084,0.087,0.068,0.146,0.070,0.107,0.111,0.571,0.563,2.10,1.20,M3_sign_gain,boundary crossing (re-examination required)
+SW7,Q10,442,0.017,0.080,0.084,0.066,0.148,0.063,0.026,0.104,0.554,0.533,2.34,1.20,M3_sign_gain,boundary crossing (re-examination required)
+SW7,Q11,438,0.008,0.080,0.135,0.095,0.074,0.049,0.025,0.101,0.613,0.543,1.51,1.17,M3_sign_gain,boundary crossing (re-examination required)
+SW7,Q12,440,0.037,0.071,0.028,0.022,0.127,0.100,0.107,0.096,0.572,0.549,1.27,1.20,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q1,506,0.020,0.073,0.051,0.051,0.143,0.078,0.023,0.097,0.099,0.603,1.83,1.18,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q2,504,0.061,0.080,0.023,0.019,0.152,0.110,0.062,0.103,0.103,0.593,1.38,1.15,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q3,501,0.036,0.076,0.110,0.083,0.104,0.028,0.070,0.100,0.110,0.583,3.71,1.16,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q4,507,0.040,0.087,0.063,0.052,0.128,0.078,0.058,0.105,0.047,0.578,1.64,1.07,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q5,506,0.028,0.075,0.059,0.028,0.258,0.080,0.065,0.099,0.106,0.577,3.24,1.29,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q6,503,0.055,0.084,0.098,0.076,0.040,0.056,0.055,0.111,0.163,0.632,1.29,1.10,M2_inc_mi,boundary crossing (re-examination required)
+SW9,Q7,440,0.086,0.089,0.039,0.033,0.198,0.093,0.086,0.104,0.051,0.607,2.14,1.18,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q8,433,0.085,0.081,0.070,0.060,0.179,0.071,0.085,0.101,0.059,0.603,2.51,1.28,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q9,442,0.065,0.085,0.080,0.068,0.133,0.076,0.073,0.108,0.039,0.627,1.75,1.15,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q10,442,0.035,0.080,0.084,0.066,0.145,0.070,0.083,0.103,0.056,0.593,2.08,1.18,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q11,438,0.006,0.085,0.113,0.096,0.073,0.057,0.025,0.104,0.009,0.609,1.28,1.13,M3_sign_gain,boundary crossing (re-examination required)
+SW9,Q12,440,0.065,0.083,0.021,0.022,0.172,0.100,0.065,0.097,0.059,0.592,1.72,1.19,M3_sign_gain,boundary crossing (re-examination required)
+SW12,Q1,458,0.008,0.083,0.048,0.047,0.000,0.084,0.062,0.102,0.490,0.494,1.02,1.21,M2_inc_mi,unusable
+SW12,Q2,458,0.019,0.082,0.016,0.012,0.022,0.125,0.102,0.101,0.538,0.511,1.34,1.21,M2_inc_mi,boundary crossing (re-examination required)
+SW12,Q3,458,0.074,0.079,0.086,0.082,0.051,0.032,0.077,0.091,0.533,0.517,1.60,1.12,M3_sign_gain,boundary crossing (re-examination required)
+SW12,Q4,458,0.080,0.084,0.052,0.046,0.060,0.083,0.143,0.102,0.532,0.528,1.40,1.20,M4_lead_max,boundary crossing (re-examination required)
+SW12,Q5,458,0.132,0.079,0.028,0.030,0.035,0.091,0.132,0.101,0.543,0.527,1.67,1.15,M1_inc_corr,boundary crossing (re-examination required)
+SW12,Q6,458,0.032,0.080,0.106,0.082,0.019,0.052,0.061,0.101,0.557,0.554,1.31,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW12,Q7,393,0.081,0.080,0.023,0.025,0.115,0.114,0.081,0.101,0.523,0.541,1.01,1.15,M3_sign_gain,unusable
+SW12,Q8,394,0.044,0.082,0.067,0.061,0.045,0.080,0.087,0.105,0.512,0.540,1.09,1.19,M2_inc_mi,unusable
+SW12,Q9,394,0.002,0.081,0.070,0.065,0.030,0.085,0.109,0.105,0.483,0.529,1.07,1.14,M2_inc_mi,unusable
+SW12,Q10,394,0.008,0.073,0.070,0.063,0.077,0.081,0.053,0.093,0.424,0.513,1.11,1.21,M2_inc_mi,unusable
+SW12,Q11,394,0.016,0.074,0.120,0.102,0.028,0.065,0.074,0.106,0.440,0.528,1.18,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW12,Q12,393,0.004,0.070,0.034,0.024,0.079,0.104,0.052,0.088,0.446,0.522,1.39,1.29,M2_inc_mi,boundary crossing (re-examination required)
+SW13,Q1,461,0.010,0.085,0.045,0.048,0.014,0.091,0.046,0.108,0.410,0.412,0.95,1.19,M2_inc_mi,unusable
+SW13,Q2,461,0.030,0.073,0.013,0.012,0.155,0.134,0.046,0.095,0.454,0.436,1.16,1.18,M3_sign_gain,unusable
+SW13,Q3,461,0.045,0.075,0.107,0.082,0.033,0.028,0.061,0.102,0.436,0.411,1.30,1.23,M2_inc_mi,boundary crossing (re-examination required)
+SW13,Q4,461,0.089,0.085,0.051,0.046,0.073,0.085,0.089,0.102,0.426,0.424,1.09,1.10,M2_inc_mi,unusable
+SW13,Q5,461,0.113,0.083,0.055,0.030,0.167,0.106,0.113,0.101,0.446,0.428,1.79,1.13,M2_inc_mi,boundary crossing (re-examination required)
+SW13,Q6,461,0.045,0.079,0.104,0.083,0.007,0.063,0.045,0.101,0.452,0.445,1.25,1.22,M2_inc_mi,boundary crossing (re-examination required)
+SW13,Q7,396,0.011,0.083,0.026,0.026,0.013,0.103,0.100,0.108,0.420,0.455,1.01,1.16,M2_inc_mi,unusable
+SW13,Q8,397,0.027,0.092,0.063,0.061,0.033,0.089,0.068,0.121,0.419,0.432,1.04,1.29,M2_inc_mi,unusable
+SW13,Q9,397,0.086,0.095,0.071,0.065,0.033,0.084,0.086,0.113,0.394,0.405,1.09,1.16,M2_inc_mi,unusable
+SW13,Q10,397,0.013,0.074,0.057,0.063,0.035,0.088,0.033,0.095,0.350,0.412,0.91,1.29,M2_inc_mi,unusable
+SW13,Q11,397,0.041,0.079,0.123,0.100,0.011,0.061,0.061,0.097,0.355,0.422,1.23,1.17,M2_inc_mi,boundary crossing (re-examination required)
+SW13,Q12,396,0.015,0.081,0.028,0.025,0.013,0.118,0.111,0.103,0.352,0.402,1.12,1.15,M2_inc_mi,unusable
+SW15,Q1,508,0.050,0.072,0.061,0.052,0.106,0.071,0.050,0.094,0.439,0.470,1.49,1.19,M3_sign_gain,boundary crossing (re-examination required)
+SW15,Q2,506,0.112,0.076,0.035,0.019,0.222,0.127,0.112,0.098,0.469,0.478,1.81,1.14,M2_inc_mi,boundary crossing (re-examination required)
+SW15,Q3,503,0.062,0.072,0.143,0.083,0.068,0.030,0.085,0.096,0.407,0.457,2.28,1.07,M3_sign_gain,boundary crossing (re-examination required)
+SW15,Q4,509,0.021,0.080,0.080,0.051,0.029,0.071,0.056,0.105,0.452,0.470,1.57,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW15,Q5,508,0.087,0.072,0.048,0.028,0.116,0.080,0.087,0.089,0.405,0.466,1.71,1.24,M2_inc_mi,boundary crossing (re-examination required)
+SW15,Q6,505,0.006,0.078,0.118,0.076,0.055,0.050,0.082,0.107,0.200,0.497,1.57,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW15,Q7,440,0.079,0.074,0.046,0.033,0.188,0.093,0.079,0.095,0.395,0.512,2.02,1.13,M3_sign_gain,boundary crossing (re-examination required)
+SW15,Q8,433,0.087,0.084,0.092,0.059,0.022,0.079,0.087,0.098,0.274,0.505,1.57,1.17,M2_inc_mi,boundary crossing (re-examination required)
+SW15,Q9,442,0.087,0.085,0.110,0.067,0.110,0.064,0.107,0.101,0.422,0.522,1.73,1.19,M3_sign_gain,boundary crossing (re-examination required)
+SW15,Q10,442,0.000,0.088,0.094,0.066,0.135,0.082,0.070,0.103,0.468,0.535,1.63,1.09,M3_sign_gain,boundary crossing (re-examination required)
+SW15,Q11,438,0.021,0.082,0.168,0.094,0.099,0.053,0.044,0.102,0.378,0.500,1.88,1.16,M3_sign_gain,boundary crossing (re-examination required)
+SW15,Q12,440,0.043,0.070,0.030,0.022,0.097,0.100,0.043,0.088,0.439,0.528,1.37,1.20,M2_inc_mi,boundary crossing (re-examination required)
+SW16,Q1,485,0.018,0.077,0.048,0.054,0.069,0.079,0.082,0.104,0.209,0.527,0.90,1.22,M2_inc_mi,unusable
+SW16,Q2,483,0.030,0.075,0.024,0.020,0.096,0.110,0.046,0.104,0.218,0.574,1.17,1.15,M2_inc_mi,boundary crossing (re-examination required)
+SW16,Q3,480,0.046,0.077,0.138,0.086,0.110,0.028,0.117,0.095,0.239,0.540,3.90,1.22,M3_sign_gain,boundary crossing (re-examination required)
+SW16,Q4,486,0.062,0.082,0.067,0.053,0.100,0.077,0.102,0.108,0.165,0.554,1.29,1.18,M3_sign_gain,boundary crossing (re-examination required)
+SW16,Q5,485,0.009,0.080,0.048,0.029,0.144,0.092,0.080,0.100,0.197,0.546,1.68,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW16,Q6,482,0.013,0.079,0.144,0.093,0.069,0.051,0.082,0.102,0.250,0.590,1.56,1.27,M2_inc_mi,boundary crossing (re-examination required)
+SW16,Q7,440,0.012,0.082,0.041,0.033,0.144,0.093,0.073,0.101,0.145,0.554,1.56,1.13,M3_sign_gain,boundary crossing (re-examination required)
+SW16,Q8,433,0.011,0.071,0.068,0.059,0.023,0.079,0.115,0.100,0.241,0.565,1.15,1.18,M2_inc_mi,unusable
+SW16,Q9,442,0.010,0.082,0.082,0.068,0.091,0.070,0.110,0.105,0.157,0.575,1.30,1.14,M3_sign_gain,boundary crossing (re-examination required)
+SW16,Q10,442,0.003,0.087,0.078,0.067,0.095,0.063,0.083,0.102,0.145,0.567,1.50,1.20,M3_sign_gain,boundary crossing (re-examination required)
+SW16,Q11,438,0.042,0.072,0.121,0.094,0.011,0.053,0.088,0.099,0.192,0.576,1.29,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW16,Q12,440,0.035,0.080,0.022,0.023,0.132,0.100,0.078,0.097,0.156,0.576,1.32,1.19,M3_sign_gain,boundary crossing (re-examination required)
+SW17,Q1,200,0.104,0.126,0.156,0.165,0.076,0.096,0.111,0.155,0.443,0.507,0.95,1.22,M2_inc_mi,unusable
+SW17,Q2,200,0.062,0.131,0.057,0.060,0.028,0.132,0.098,0.158,0.450,0.497,0.95,1.20,M2_inc_mi,unusable
+SW17,Q3,200,0.017,0.114,0.295,0.279,0.021,0.048,0.037,0.147,0.500,0.504,1.06,1.16,M2_inc_mi,unusable
+SW17,Q4,200,0.137,0.135,0.169,0.179,0.071,0.093,0.142,0.164,0.505,0.509,1.01,1.17,M1_inc_corr,unusable
+SW17,Q5,200,0.029,0.125,0.059,0.065,0.114,0.130,0.200,0.153,0.504,0.508,1.31,1.17,M4_lead_max,boundary crossing (re-examination required)
+SW17,Q6,200,0.072,0.125,0.271,0.289,0.049,0.070,0.096,0.156,0.487,0.526,0.94,1.04,M2_inc_mi,unusable
+SW17,Q7,200,0.012,0.122,0.081,0.091,0.065,0.103,0.084,0.148,0.493,0.490,0.89,1.15,M2_inc_mi,unusable
+SW17,Q8,200,0.023,0.133,0.191,0.200,0.043,0.087,0.076,0.158,0.450,0.496,0.96,1.17,M2_inc_mi,unusable
+SW17,Q9,200,0.063,0.120,0.214,0.232,0.045,0.083,0.119,0.173,0.426,0.519,0.92,1.26,M2_inc_mi,unusable
+SW17,Q10,200,0.064,0.120,0.193,0.211,0.004,0.083,0.155,0.152,0.382,0.484,1.02,1.12,M4_lead_max,unusable
+SW17,Q11,200,0.088,0.120,0.300,0.277,0.080,0.059,0.088,0.150,0.420,0.481,1.35,1.21,M3_sign_gain,boundary crossing (re-examination required)
+SW17,Q12,200,0.105,0.123,0.077,0.093,0.118,0.100,0.105,0.158,0.427,0.505,1.18,1.17,M3_sign_gain,boundary crossing (re-examination required)
+SW18,Q1,505,0.013,0.086,0.051,0.053,0.000,0.078,0.063,0.104,0.073,0.341,0.98,1.17,M2_inc_mi,unusable
+SW18,Q2,503,0.033,0.087,0.019,0.020,0.144,0.111,0.033,0.114,0.053,0.342,1.30,1.15,M3_sign_gain,boundary crossing (re-examination required)
+SW18,Q3,500,0.029,0.069,0.100,0.084,0.016,0.027,0.074,0.092,0.009,0.339,1.19,1.17,M2_inc_mi,boundary crossing (re-examination required)
+SW18,Q4,506,0.024,0.076,0.057,0.052,0.068,0.071,0.082,0.098,0.086,0.374,1.10,1.25,M2_inc_mi,unusable
+SW18,Q5,505,0.039,0.074,0.033,0.028,0.083,0.080,0.100,0.089,0.046,0.354,1.18,1.19,M2_inc_mi,unusable
+SW18,Q6,502,0.018,0.077,0.092,0.081,0.013,0.052,0.040,0.098,0.093,0.357,1.13,1.13,M2_inc_mi,boundary crossing (re-examination required)
+SW18,Q7,440,0.048,0.079,0.041,0.032,0.145,0.093,0.098,0.102,0.049,0.374,1.57,1.13,M3_sign_gain,boundary crossing (re-examination required)
+SW18,Q8,433,0.012,0.081,0.077,0.059,0.023,0.079,0.056,0.100,0.097,0.371,1.31,1.18,M2_inc_mi,boundary crossing (re-examination required)
+SW18,Q9,442,0.092,0.074,0.076,0.067,0.159,0.064,0.092,0.096,0.076,0.388,2.49,1.21,M3_sign_gain,boundary crossing (re-examination required)
+SW18,Q10,442,0.016,0.082,0.067,0.067,0.054,0.070,0.034,0.102,0.112,0.376,1.00,1.18,M2_inc_mi,unusable
+SW18,Q11,438,0.062,0.092,0.112,0.094,0.011,0.053,0.062,0.117,0.019,0.383,1.18,1.14,M2_inc_mi,boundary crossing (re-examination required)
+SW18,Q12,440,0.021,0.072,0.020,0.023,0.103,0.087,0.084,0.090,0.081,0.368,1.19,1.23,M3_sign_gain,unusable
+SW20,Q1,191,0.018,0.118,0.012,0.015,0.100,0.300,0.029,0.152,0.039,0.230,0.82,1.18,M2_inc_mi,unusable
+SW20,Q2,191,0.022,0.126,-0.000,-0.000,—,—,0.103,0.174,0.115,0.216,0.59,1.15,M4_lead_max,unusable
+SW20,Q3,191,—,—,0.000,0.000,0.006,0.042,—,—,0.136,0.242,0.13,1.00,M3_sign_gain,unusable
+SW20,Q4,191,—,—,0.000,0.000,—,—,—,—,—,—,—,—,nan,boundary crossing (re-examination required)
+SW20,Q5,191,—,—,0.000,0.000,—,—,—,—,—,—,—,—,nan,boundary crossing (re-examination required)
+SW20,Q6,191,0.065,0.174,0.087,0.086,0.130,0.133,0.116,0.207,0.013,0.090,1.02,1.15,M2_inc_mi,unusable
+SW20,Q7,191,—,—,0.000,0.000,—,—,—,—,—,—,—,—,nan,boundary crossing (re-examination required)
+SW20,Q8,191,0.002,0.129,0.006,0.005,—,—,0.105,0.160,0.145,0.234,1.05,1.08,M2_inc_mi,unusable
+SW20,Q9,191,0.004,0.152,0.011,0.011,—,—,0.201,0.207,0.110,0.239,1.04,1.10,M2_inc_mi,unusable
+SW20,Q10,191,0.004,0.148,0.008,0.009,—,—,0.177,0.207,0.107,0.247,0.98,1.28,M2_inc_mi,unusable
+SW20,Q11,191,0.003,0.145,0.056,0.062,0.067,0.158,0.127,0.189,0.124,0.205,0.89,1.19,M2_inc_mi,unusable
+SW20,Q12,191,—,—,0.000,0.000,—,—,—,—,—,—,—,—,nan,boundary crossing (re-examination required)

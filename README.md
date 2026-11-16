@@ -1,139 +1,113 @@
-# Predictability-capacity characterization of a deep-excavation inclinometer monitoring system
+# Reproduction package: representation-conditional predictability ceiling of inclinometer monitoring
 
-Analysis code and synthetic example data accompanying the manuscript submitted to
-*Measurement Science and Technology*:
+Version **v1.1.0** (2026-11-17). This package accompanies the manuscript
 
-> **Predictability-capacity characterization of a deep-excavation multi-section inclinometer
-> monitoring system: variable admission criterion, predictability boundary, and
-> measurement-configuration sensitivity**
+> Xu X., Jin D., He J., Sun X. *Calibrating the representation-conditional predictability ceiling of multi-section inclinometer monitoring: a protocol demonstrated on a deep excavation.* Submitted to *Tunnelling and Underground Space Technology*.
 
----
+It contains the derived tables, the distributed data files and the convention register behind every number in the main text and the Supplementary Information (SI). Raw monitoring records are **not** distributed; the package contains only de-identified derived quantities.
 
-## 1. What this release contains
+## 1. Layout
 
-| Path | Contents | Supplementary counterpart |
-|---|---|---|
-| `Ablation_Experiment.py` | Spatio-temporal graph-network implementation vehicle + ablation variants + data pipeline | §3, §4.2, S5 |
-| `Comparison_Experiment.py` | External/classical baselines under a shared budget | §4.4.1, S26 |
-| `PCA_Experiment.py`, `Spatial_LOOCV.py`, `Stress_Test_Experiment.py` | PCA-capacity control, leave-one-section-out protocol, stress conditions | S6, S16, S21 |
-| `_p*.py`, `_vicd_*.py`, `_loocv_*.py`, `_k_scan_probe.py`, `_uq_verify.py`, `_persist_baseline.py`, `_multitarget_vicd.py` | The 29 analysis scripts behind the reported statistics and tables | see `mapping.md` |
-| `make_example_data.py` | Generates the synthetic monitoring data (schema-identical, fictional values) | — |
-| `make_example_aux.py` | Generates the auxiliary example inputs (cross-site/cross-scenario, bookkeeping tables) | S6, S8–S10, S20 |
-| `make_example_artifacts.py` | Runs the released pipeline on the synthetic data to produce example artefacts | S13–S27 |
-| `make_example_comparison.py` | Runs the external-baseline comparison on the synthetic data | §4.4.1, S26 |
-| `make_example_stress.py` | Runs the stress conditions on the synthetic data | §4.3 |
-| `make_example_pca.py` | Runs the PCA-capacity control on the synthetic data | S16, S21 |
-| `make_example_loocv.py` | Runs the leave-one-section-out protocol on the synthetic data | S6 |
-| `run_all.py` | Runs the 30 core analysis scripts end-to-end (after steps 1–7) and reports pass/fail | — |
+```text
+reproduction/
+  README.md
+  MANIFEST.csv          # inventory: path, category, rows, columns, status, description
+  CITATION.cff
+  LICENSE
+  *.py                  # analysis code, example generators and run_all.py
+  requirements.txt
+  mapping.md            # script-to-section mapping
+  example_data/         # synthetic monitoring data (fictional values)
+  Tan_Digitized/        # digitized Tan series (CC BY 4.0) and its probe
+  Liugou_Processed/     # synthetic example of the auxiliary cross-scenario input
+  ML数据/               # synthetic anchor-force examples
+  data/                 # eight files distributed with the submission
+  tables/               # per-seed, per-window, per-node, per-configuration results
+  logs/                 # convergence logs and the main-text cross-check
+  legacy/               # superseded V5-protocol comparisons, kept for traceability
+  figures_source/       # data behind Fig. 4, Fig. 5, Fig. S5 and the deep-node figure
+  gaps/                 # S7 declared-gap index
+```
 
-Every script in `vicd/`, `capacity/`, `interval/` and `loopv/` of the internal project
-repository is included here as a flat module; the previous folder grouping is reflected in
-`mapping.md`.
+The analysis code sits at the repository root, with `requirements.txt`, `mapping.md` and `run_all.py`. It contains the VICD criterion, the floor–reach decomposition, the interval recalibration, the leave-one-section-out protocol and the training pipeline, plus the synthetic example data generator (`make_example_data.py`) and its auxiliary generators. `Tan_Digitized/fig19_digitized.csv` is the actual digitized Tan series, reused under CC BY 4.0; all other example values are fictional.
 
-## 2. Quick start
+### Code quick start
 
 ```bash
-python make_example_data.py        # 1. synthetic monitoring data  -> example_data/
-python make_example_aux.py         # 2. auxiliary example inputs   -> Tan_Digitized/, Liugou_Processed/, _paper_tables/
-python make_example_artifacts.py   # 3. ablation artefacts (5 seeds, 6 epochs) -> example_artifacts/
-python make_example_comparison.py  # 4. external-baseline artefacts
-python make_example_stress.py      # 5. stress-condition artefacts
-python make_example_pca.py         # 6. PCA-capacity artefacts
-python make_example_loocv.py       # 7. leave-one-section-out artefacts
-python run_all.py                  # 8. run the 30 core analysis scripts; every line should read PASS
-python Tan_Digitized/_tan_predictability_probe.py  # 9. aggregate Tan probe behind §4.5.1/S8 (optional)
+python make_example_data.py        # synthetic monitoring data -> example_data/
+python make_example_aux.py         # auxiliary example inputs -> Tan_Digitized/, Liugou_Processed/
+python make_example_artifacts.py   # ablation artefacts (reduced budget)
+python make_example_comparison.py  # external-baseline artefacts
+python make_example_stress.py      # stress-condition artefacts
+python make_example_pca.py         # PCA-capacity artefacts
+python make_example_loocv.py       # leave-one-section-out artefacts
+python run_all.py                  # run the 30 core analysis scripts and report pass/fail
 ```
 
-All generator steps use a reduced scale so that the whole archive stays small and the checks
-finish in minutes. They are **not** required to use your own data — see §4.
+All generator steps use a reduced scale so the archive stays small; they demonstrate the pipeline and do not reproduce the reported numbers, which require the private monitoring data. `run_all.py` sets `EXAMPLE_MODE=1`, which turns the hard numeric anchors into warnings for the synthetic data.
 
-## 3. Example data are synthetic
+## 2. Distributed data (`data/`)
 
-`example_data/` is generated by `make_example_data.py`. File names, sheet layout, column
-names, units, sampling grid and the 5-section × 31-depth node grid are identical to the real
-monitoring data, but **all values are fictional**. This includes the full field layout of the
-raw weekly logs (8 columns: time, section, depth, measurement index, increment, cumulative
-displacement, construction stage, elapsed days) and of the anchor-force sheets (7 columns:
-point, design lock-off load, measurement index, time, measured value, increment, cumulative
-change). The example data exist only so that the code can be executed; they cannot reproduce
-the numbers reported in the paper, and the artefacts produced from them are for pipeline
-demonstration only.
+| File | Rows | Content |
+|---|---:|---|
+| `SuppData_VICD_records_EN.csv` | 68 | Per-record VICD inputs: four statistics, 95% surrogate thresholds, $n$, $T_{\mathrm{obs}}$, $T_{\mathrm{thr}}$, binding indicator, Stage-1 verdict. |
+| `SuppData_derived_target_EN.csv` | 4,260 | De-identified derived target: section- and layer-mean displacement against a step index (5 sections × 4 depth layers × 213 steps). No dates or coordinates. |
+| `SuppData_stress_results.csv` | 70 | Stress-test cells: family, intensity, horizon, RMSE and SD for the fixed configuration and the baseline. |
+| `SuppData_model_results.csv` | 7,541 | Long-format model results: experiment, variant, horizon, seed, metric, value, SD, $n$, detail, source file. |
+| `SuppData_cross_site_results.csv` | 4,207 | Cross-site results: site, series, phase, horizon, metric, value, CI bounds, $n$, detail, source file. |
+| `SuppData_S6_water_pairwise_EN.csv` | 216 | Tan water-level pairs: $n$, M1–M4 and MLEV, thresholds, $T_{\mathrm{obs}}$, $T_{0.95}$, verdict. |
+| `SuppData_S6_liugou_records_EN.csv` | 48 | Liugou records (6 candidates × 8 targets): statistics, thresholds, $T_{\mathrm{obs}}$, $T_{0.95}$, verdict. |
+| `MANIFEST.csv` | 8 | Inventory of the data files, with row and column counts and status. |
 
-`Liugou_Processed/inclinometer_mm_full.csv` is also a synthetic example with fictional values,
-not the public Liugou dataset; the real dataset is available at the DOI in the manuscript's
-Data Availability statement. `Tan_Digitized/fig19_digitized.csv` is the actual digitized series
-from Tan et al. (2018), included under the CC BY licence of the original article.
+## 3. Tables (`tables/`)
 
-The primary-site monitoring data are proprietary and are **not** distributed (see the
-manuscript's Data availability statement). Verification of specific reported outputs can be
-requested from the corresponding author.
+The tables keep the identifiers used in the manuscript and SI. The most important entry points are:
 
-## 4. Using your own data
-
-All machine-specific paths were neutralized to four placeholders and are resolved in
-`_env.py` from environment variables. No local drive letters, user or environment names,
-internal project directory names or sandbox-specific notes remain in the released files.
-The four variables are:
-
-| Variable | Meaning | Default |
+| File | Used in | Content |
 |---|---|---|
-| `DATA_ROOT` | root of the monitoring data | `<repo>/example_data` |
-| `AUX_ROOT` | root of the saved experiment artefacts | `<repo>/example_artifacts` |
-| `WORK_ROOT` | repository work root | `<repo>` |
-| `PYENV_ROOT` | Python environment prefix (only used in docstring examples) | empty |
+| `T1_long.csv` | Table 2, S5.3 | Per-model, per-horizon, per-seed comparison on both scales. |
+| `T2_ablation_long.csv` | Table S6, S4.1 | Per-variant, per-horizon, per-seed ablation results. |
+| `T5b_decomposition_ablation.csv` | S4.4 | Floor–reach decomposition per variant and horizon. |
+| `T_stress_raw.csv` | §4.3, S5.1.4 | Noise, missing-node and depth-sparsification cells. |
+| `T_p02_block_bootstrap.csv` | S5.4.5 | Paired block-bootstrap results. |
+| `T_p02_variance_components.csv` | S5.4.4 | Floor, dispersion and seed variance shares. |
+| `T_p02_walkforward.csv` | S4.5 | Rolling-origin folds. |
+| `T_p03_config_summary.csv` | S5.4.7 | Winner matrix over the 14 configurations. |
+| `T_p05_vicd_stage.csv` | S3.1.10 | VICD, PMI and LASSO admission results on the same candidate set. |
+| `T_p05_vicd_phase.csv` | S3.3 | Phase-wise joint statistic for the water-level variable. |
+| `T_p06_deep_neg.csv`, `T_p06_nodeep.csv` | S5.7 | Deep-node negatives and the with/without-deep-node comparison. |
+| `T_p07_conformal.csv` | S5.5 | Conformal coverage by horizon and nominal level. |
+| `T_p19_skill_states.csv` | S6.2, S6.6 | Tan and Liugou pooled-ridge results by state. |
+| `T_p19_skill_regression.csv` | S6.5 | $S$–skill regression. |
+| `T_p19_digitization_unc.csv` | S6.1 | Digitization calibration and grid uncertainty. |
+| `pca_floor_by_k.csv` | §4.2, Table 3 | Floor and ceiling by $K$. |
+| `S7_pipeline_register.csv` | S7.1 | Per-pipeline conventions behind each reported RMSE. |
 
-```powershell
-$env:DATA_ROOT = "<absolute path to the monitoring data>"
-$env:AUX_ROOT  = "<absolute path to the saved results>"
-python _p04_increment_caliber.py
-```
+The remaining files are per-seed, per-configuration, per-horizon or per-depth detail. `legacy/` holds superseded V5-protocol comparisons and must not be mixed with the main tables; `logs/` holds the epoch-level convergence records.
 
-Expected layout under `DATA_ROOT`:
+## 4. Conventions that must not be mixed
 
-```
-ceshi14/MoXin/data/CX{2,3,8,13,15}.xlsx      # 测量时间, 测点, 深度_m, 累计水平位移_mm
-ceshi14/MoXin/data/斜测点坐标.xlsx            # 测点, 位置_X_m, 位置_Y_m
-ceshi14/shuiwei/时间统一+插值/SW{1,4,7}.xlsx  # 监测时间, 水位深度_m, 累计水位变化_m
-ceshi14/date/raw/地质参数表.xlsx              # 厚度, 粘聚力, 内摩擦角, 压缩模量, 重度, 泊松比, 静止侧压力系数
-shuju/沉降/{6,18,31}.xlsx                     # 监测时间, 累计沉降量_mm
-```
+- **Scales.** Cumulative and increment scales are reported side by side; they are not interchangeable. The main tables use the last-step scale at $H=10$.
+- **Seed and window inference.** Seed-level paired $t$-tests treat the initialization as the unit; the circular block bootstrap treats the test window as the unit. The block bootstrap over-rejects at the observed effect sizes and is reported separately.
+- **Pipelines.** 1.5687 (ablation/comparison) and 1.5700 (stress clean control) are the same configuration through different pipelines; 1.8199 and 1.7475 are the density-separation tier evaluated on two node sets. See `tables/S7_pipeline_register.csv`.
+- **Training regimes.** The locked protocol uses four gradient steps per epoch; the standard protocol uses 32. Values from the two regimes are not interchangeable.
+- **Skill averaging.** Main columns average the last-step RMSE over seeds and then apply the skill formula; the per-seed order gives −0.3119 for the same cell.
 
-Anchor-force files (`ML*.xlsx`) are read from `WORK_ROOT/ML数据/`.
+## 5. Reproducing a number
 
-## 5. Dependencies
+1. Locate the claim in the main text or SI; the SI subsection names the table or sample size.
+2. Open the corresponding file in `tables/` or `data/`; column names are lower-case with units where relevant.
+3. Check the pipeline in `tables/S7_pipeline_register.csv` before comparing across experiments.
+4. Use `MANIFEST.csv` to confirm whether a file is distributed, superseded or held in the project source archive.
 
-See `requirements.txt`. Python 3.10+, PyTorch (CUDA optional), NumPy, SciPy, Pandas,
-scikit-learn, Matplotlib, seaborn, PyWavelets, openpyxl, LightGBM (GBDT baselines) and thop
-(FLOPs accounting). All scripts fall back to CPU when CUDA is unavailable.
+## 6. Data that are not distributed
 
-## 6. Notes on conventions
+Raw inclinometer, settlement, water-level and anchor-force records are project data and are not included. A small number of SI pointers refer to items held in the project source archive (station coordinates, the 734-row IQR screening table, the 55,380-row quality detail, the realized seed list, the 29-project table and a few pairwise tables). These are marked `source-archive` in `MANIFEST.csv`; the manuscript does not depend on any single one of them for a conclusion.
 
-- **Anchor self-checks.** Several scripts compare their output against the numbers reported in
-  the paper and stop if they do not match (a regression guard for the private data). Because
-  the synthetic example data cannot reproduce those numbers, `run_all.py` sets
-  `EXAMPLE_MODE=1`, which turns these hard anchors into warnings. With real data, leave
-  `EXAMPLE_MODE` unset and the anchors are enforced.
-- **Training budget.** `ABLATION_EPOCHS` / `ABLATION_PATIENCE` default to the paper's
-  400 / 40; `run_all.py` lowers them to 5 / 3 so the demonstration finishes in minutes.
-- **Random seeds**: a fixed set of 30 seeds is used throughout; the full list and the
-  module-creation order are given in supplementary material S5. The example artefacts use
-  five of them.
-- **Two inference units**: seed-paired *t* tests and window-level circular block bootstrap
-  are reported separately (§3.4); both are implemented here.
-- **Two skill calibres**: the main table and §4.4.2 use the aggregate calibre (−0.307); the
-  per-seed convention gives −0.3119 for the same cell (computed by `_p04_increment_caliber.py`,
-  documented in S13/S20). The two must not be mixed.
-- **Terminology**: the bound denoted $C_{\mathrm{pred}}$ in the manuscript is the
-  predictability capacity.
+## 7. License and citation
 
-## 7. What is and is not inside the distributed archive
+- Code and scripts: MIT (`LICENSE`).
+- Derived data and tables: CC BY 4.0.
+- Citation metadata: `CITATION.cff`; cite the article and this package (v1.1.0).
 
-The journal supplementary file and the GitHub repository contain the code, the synthetic
-monitoring data and the auxiliary example inputs. They do **not** contain the generated
-experiment artefacts (`example_artifacts/`, `Spatial_LOOCV_Results/`, ~700 MB); these are
-produced by steps 3–7 of §2, which take about 20 min on a CPU. This keeps the archive small
-without weakening reproducibility: after steps 1–7, `run_all.py` verifies all 30 scripts.
-
-## 8. Licence
-
-MIT — see `LICENSE`.
+Contact: Xiaodan Sun, College of Aerospace and Civil Engineering, Harbin Engineering University, `sunxiaodan@hrbeu.edu.cn`.

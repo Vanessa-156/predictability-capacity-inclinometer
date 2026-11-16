@@ -1,0 +1,711 @@
+scope,H,cond,model_a,model_b,caliber,delta_RMSE,ci_lo,ci_hi,p_boot,L,n_win,note
+T5_pairwise,10,,Ours,TCN-Only,cum,-0.093243,-0.096793,-0.090992,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(TCN-Only); n_win=11; 独立块≈3.7; 配对t_p=0.0142(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,TCN-Only,cum,-0.093243,-0.096640,-0.090801,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,TCN-Only,cum,-0.093243,-0.096445,-0.091302,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,TCN-Only,inc,-0.039241,-0.044473,-0.034551,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(TCN-Only); n_win=11; 独立块≈3.7; 配对t_p=0.0142(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,TCN-Only,inc,-0.039241,-0.044020,-0.034765,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,TCN-Only,inc,-0.039241,-0.044021,-0.034892,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,BiLSTM-Attn,cum,-0.026915,-0.028593,-0.025228,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.2657(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,BiLSTM-Attn,cum,-0.026915,-0.028647,-0.025291,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,BiLSTM-Attn,cum,-0.026915,-0.028399,-0.025422,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,BiLSTM-Attn,inc,-0.008683,-0.010838,-0.006810,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.2657(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,BiLSTM-Attn,inc,-0.008683,-0.010658,-0.007020,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,BiLSTM-Attn,inc,-0.008683,-0.010652,-0.006888,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GraphWaveNet,cum,-0.022291,-0.024877,-0.019794,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4098(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,GraphWaveNet,cum,-0.022291,-0.024597,-0.020094,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GraphWaveNet,cum,-0.022291,-0.025013,-0.019739,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GraphWaveNet,inc,-0.010601,-0.011739,-0.009840,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4098(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,GraphWaveNet,inc,-0.010601,-0.011820,-0.009633,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GraphWaveNet,inc,-0.010601,-0.011484,-0.009924,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,LSTM,cum,-0.045476,-0.049863,-0.040644,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.1317(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,LSTM,cum,-0.045476,-0.049608,-0.041214,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,LSTM,cum,-0.045476,-0.049730,-0.040881,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,LSTM,inc,-0.006779,-0.008556,-0.005365,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.1317(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,LSTM,inc,-0.006779,-0.008430,-0.005427,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,LSTM,inc,-0.006779,-0.008330,-0.005465,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,STGCN,cum,-0.085122,-0.087504,-0.082841,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.0029(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,STGCN,cum,-0.085122,-0.087457,-0.082927,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,STGCN,cum,-0.085122,-0.087090,-0.082734,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,STGCN,inc,-0.033118,-0.036894,-0.030342,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.0029(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,STGCN,inc,-0.033118,-0.036884,-0.029862,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,STGCN,inc,-0.033118,-0.036452,-0.030959,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,Transformer,cum,-0.087676,-0.092947,-0.083661,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.0020(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,Transformer,cum,-0.087676,-0.092662,-0.083568,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,Transformer,cum,-0.087676,-0.091902,-0.084263,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,Transformer,inc,-0.033575,-0.038094,-0.029939,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.0020(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,Transformer,inc,-0.033575,-0.038519,-0.029822,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,Transformer,inc,-0.033575,-0.037247,-0.030430,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-Attention,cum,-0.012510,-0.015519,-0.009388,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.5774(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,V-Attention,cum,-0.012510,-0.015343,-0.009720,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-Attention,cum,-0.012510,-0.015659,-0.008994,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-Attention,inc,0.005991,0.004353,0.008109,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.5774(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,V-Attention,inc,0.005991,0.004336,0.007969,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-Attention,inc,0.005991,0.004558,0.007984,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-MLP,cum,-0.010364,-0.014755,-0.004390,0.001000,3,11,"Δ=RMSE(Ours)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.5817(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,V-MLP,cum,-0.010364,-0.014513,-0.004796,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-MLP,cum,-0.010364,-0.014828,-0.004269,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-MLP,inc,-0.002708,-0.005326,0.000777,0.125000,3,11,"Δ=RMSE(Ours)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.5817(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,V-MLP,inc,-0.002708,-0.005502,0.000648,0.114000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,V-MLP,inc,-0.002708,-0.004822,0.000452,0.098000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GBDT,cum,-1.724826,-1.874020,-1.564479,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,GBDT,cum,-1.724826,-1.869388,-1.580830,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GBDT,cum,-1.724826,-1.878678,-1.576689,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GBDT,inc,-0.265591,-0.301556,-0.235175,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Ours,GBDT,inc,-0.265591,-0.298350,-0.234540,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Ours,GBDT,inc,-0.265591,-0.302358,-0.232300,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,BiLSTM-Attn,cum,0.066327,0.063820,0.069610,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.0861(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,BiLSTM-Attn,cum,0.066327,0.063822,0.069371,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,BiLSTM-Attn,cum,0.066327,0.063827,0.069563,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,BiLSTM-Attn,inc,0.030558,0.027681,0.033893,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.0861(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,BiLSTM-Attn,inc,0.030558,0.027649,0.033706,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,BiLSTM-Attn,inc,0.030558,0.028000,0.033439,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GraphWaveNet,cum,0.070951,0.066556,0.076440,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.0438(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,GraphWaveNet,cum,0.070951,0.066876,0.075767,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GraphWaveNet,cum,0.070951,0.066556,0.076337,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GraphWaveNet,inc,0.028640,0.024358,0.033714,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.0438(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,GraphWaveNet,inc,0.028640,0.024661,0.033281,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GraphWaveNet,inc,0.028640,0.024459,0.033308,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,LSTM,cum,0.047767,0.043510,0.052002,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.2029(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,LSTM,cum,0.047767,0.043946,0.051518,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,LSTM,cum,0.047767,0.043261,0.052105,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,LSTM,inc,0.032462,0.028881,0.036284,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.2029(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,LSTM,inc,0.032462,0.028825,0.035910,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,LSTM,inc,0.032462,0.029366,0.035785,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,STGCN,cum,0.008120,0.006116,0.010074,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.8507(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,STGCN,cum,0.008120,0.006159,0.010053,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,STGCN,cum,0.008120,0.006239,0.009948,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,STGCN,inc,0.006123,0.003590,0.009338,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.8507(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,STGCN,inc,0.006123,0.003778,0.009155,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,STGCN,inc,0.006123,0.003687,0.009232,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,Transformer,cum,0.005567,0.003676,0.007402,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.8766(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,Transformer,cum,0.005567,0.003414,0.007528,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,Transformer,cum,0.005567,0.004118,0.007103,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,Transformer,inc,0.005667,0.003487,0.008518,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.8766(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,Transformer,inc,0.005667,0.003563,0.008357,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,Transformer,inc,0.005667,0.003620,0.008380,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-Attention,cum,0.080733,0.076293,0.086818,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.0296(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,V-Attention,cum,0.080733,0.076421,0.086317,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-Attention,cum,0.080733,0.076182,0.087155,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-Attention,inc,0.045233,0.039091,0.052019,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.0296(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,V-Attention,inc,0.045233,0.039437,0.051263,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-Attention,inc,0.045233,0.039423,0.051749,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-MLP,cum,0.082878,0.076816,0.092007,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.0150(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,V-MLP,cum,0.082878,0.077003,0.091201,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-MLP,cum,0.082878,0.076816,0.092083,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-MLP,inc,0.036534,0.030335,0.043904,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.0150(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,V-MLP,inc,0.036534,0.030633,0.043186,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,V-MLP,inc,0.036534,0.030694,0.043705,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GBDT,cum,-1.631583,-1.778975,-1.472584,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,GBDT,cum,-1.631583,-1.772304,-1.489060,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GBDT,cum,-1.631583,-1.783443,-1.484405,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GBDT,inc,-0.226349,-0.258980,-0.197899,0.000000,3,11,"Δ=RMSE(TCN-Only)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,TCN-Only,GBDT,inc,-0.226349,-0.255617,-0.197955,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,TCN-Only,GBDT,inc,-0.226349,-0.260391,-0.195773,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GraphWaveNet,cum,0.004624,0.000935,0.007783,0.012000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.8675(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,GraphWaveNet,cum,0.004624,0.001274,0.007759,0.008000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GraphWaveNet,cum,0.004624,0.000839,0.007713,0.012000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GraphWaveNet,inc,-0.001919,-0.003720,0.000311,0.103000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.8675(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,GraphWaveNet,inc,-0.001919,-0.003602,0.000170,0.075000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GraphWaveNet,inc,-0.001919,-0.003771,0.000236,0.093000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,LSTM,cum,-0.018561,-0.023935,-0.012893,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.5702(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,LSTM,cum,-0.018561,-0.023401,-0.013576,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,LSTM,cum,-0.018561,-0.023829,-0.012907,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,LSTM,inc,0.001904,0.001141,0.002720,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.5702(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,LSTM,inc,0.001904,0.001095,0.002751,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,LSTM,inc,0.001904,0.001223,0.002590,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,STGCN,cum,-0.058207,-0.060068,-0.056857,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.0902(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,STGCN,cum,-0.058207,-0.059896,-0.056999,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,STGCN,cum,-0.058207,-0.060106,-0.056846,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,STGCN,inc,-0.024435,-0.026955,-0.022557,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.0902(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,STGCN,inc,-0.024435,-0.027299,-0.022067,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,STGCN,inc,-0.024435,-0.026476,-0.022968,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,Transformer,cum,-0.060760,-0.065611,-0.057299,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.0399(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,Transformer,cum,-0.060760,-0.065303,-0.057097,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,Transformer,cum,-0.060760,-0.064917,-0.057831,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,Transformer,inc,-0.024892,-0.028007,-0.022228,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.0399(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,Transformer,inc,-0.024892,-0.028414,-0.022120,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,Transformer,inc,-0.024892,-0.027423,-0.022847,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-Attention,cum,0.014406,0.011807,0.017588,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.6162(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,V-Attention,cum,0.014406,0.012055,0.017239,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-Attention,cum,0.014406,0.011732,0.017556,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-Attention,inc,0.014674,0.011360,0.018598,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.6162(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,V-Attention,inc,0.014674,0.011558,0.018236,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-Attention,inc,0.014674,0.011479,0.018515,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-MLP,cum,0.016551,0.011796,0.023005,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.3916(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,V-MLP,cum,0.016551,0.011959,0.022414,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-MLP,cum,0.016551,0.012011,0.022393,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-MLP,inc,0.005975,0.002218,0.011055,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.3916(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,V-MLP,inc,0.005975,0.002268,0.010617,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,V-MLP,inc,0.005975,0.002354,0.010716,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GBDT,cum,-1.697911,-1.847864,-1.537263,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,GBDT,cum,-1.697911,-1.841843,-1.553828,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GBDT,cum,-1.697911,-1.852485,-1.548690,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GBDT,inc,-0.256908,-0.291697,-0.227425,0.000000,3,11,"Δ=RMSE(BiLSTM-Attn)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,BiLSTM-Attn,GBDT,inc,-0.256908,-0.288480,-0.226574,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,BiLSTM-Attn,GBDT,inc,-0.256908,-0.292634,-0.224197,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,LSTM,cum,-0.023184,-0.027932,-0.019524,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.4375(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,LSTM,cum,-0.023184,-0.027634,-0.019742,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,LSTM,cum,-0.023184,-0.027821,-0.019624,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,LSTM,inc,0.003822,0.002037,0.005550,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(LSTM); n_win=11; 独立块≈3.7; 配对t_p=0.4375(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,LSTM,inc,0.003822,0.002007,0.005750,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,LSTM,inc,0.003822,0.002186,0.005311,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,STGCN,cum,-0.062831,-0.067421,-0.058188,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.0752(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,STGCN,cum,-0.062831,-0.066929,-0.058662,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,STGCN,cum,-0.062831,-0.067284,-0.058008,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,STGCN,inc,-0.022517,-0.025872,-0.020176,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.0752(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,STGCN,inc,-0.022517,-0.025697,-0.019971,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,STGCN,inc,-0.022517,-0.025597,-0.020583,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,Transformer,cum,-0.065384,-0.072439,-0.059482,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.0163(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,Transformer,cum,-0.065384,-0.071682,-0.059942,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,Transformer,cum,-0.065384,-0.071948,-0.060020,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,Transformer,inc,-0.022973,-0.027101,-0.019585,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.0163(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,Transformer,inc,-0.022973,-0.027272,-0.019513,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,Transformer,inc,-0.022973,-0.026317,-0.019895,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-Attention,cum,0.009782,0.007111,0.012418,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.6631(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,V-Attention,cum,0.009782,0.007321,0.012131,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-Attention,cum,0.009782,0.007027,0.012428,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-Attention,inc,0.016593,0.014582,0.019014,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.6631(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,V-Attention,inc,0.016593,0.014318,0.018913,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-Attention,inc,0.016593,0.014899,0.018639,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-MLP,cum,0.011927,0.008212,0.016764,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.5581(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,V-MLP,cum,0.011927,0.008378,0.016396,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-MLP,cum,0.011927,0.008308,0.016626,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-MLP,inc,0.007894,0.005113,0.011202,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.5581(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,V-MLP,inc,0.007894,0.004990,0.011383,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,V-MLP,inc,0.007894,0.005699,0.010841,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,GBDT,cum,-1.702534,-1.853636,-1.542577,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,GBDT,cum,-1.702534,-1.847926,-1.559043,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,GBDT,cum,-1.702534,-1.857330,-1.554339,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,GBDT,inc,-0.254989,-0.289939,-0.224926,0.000000,3,11,"Δ=RMSE(GraphWaveNet)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,GraphWaveNet,GBDT,inc,-0.254989,-0.286770,-0.224744,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,GraphWaveNet,GBDT,inc,-0.254989,-0.290647,-0.222391,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,STGCN,cum,-0.039647,-0.045351,-0.034123,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.3056(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,STGCN,cum,-0.039647,-0.044808,-0.034759,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,STGCN,cum,-0.039647,-0.045504,-0.033997,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,STGCN,inc,-0.026339,-0.029607,-0.024155,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(STGCN); n_win=11; 独立块≈3.7; 配对t_p=0.3056(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,STGCN,inc,-0.026339,-0.029910,-0.023464,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,STGCN,inc,-0.026339,-0.028792,-0.024702,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,Transformer,cum,-0.042200,-0.047190,-0.036566,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.1827(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,Transformer,cum,-0.042200,-0.046891,-0.037115,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,Transformer,cum,-0.042200,-0.047164,-0.036450,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,Transformer,inc,-0.026795,-0.030152,-0.024125,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.1827(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,Transformer,inc,-0.026795,-0.030454,-0.024021,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,Transformer,inc,-0.026795,-0.029501,-0.024744,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-Attention,cum,0.032966,0.026756,0.039817,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.2621(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,V-Attention,cum,0.032966,0.027314,0.039138,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-Attention,cum,0.032966,0.026769,0.040074,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-Attention,inc,0.012771,0.010106,0.016216,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.2621(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,V-Attention,inc,0.012771,0.010339,0.015818,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-Attention,inc,0.012771,0.010182,0.016017,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-MLP,cum,0.035111,0.027752,0.044721,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.1946(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,V-MLP,cum,0.035111,0.028197,0.043982,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-MLP,cum,0.035111,0.027993,0.044622,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-MLP,inc,0.004072,0.000897,0.008571,0.002000,3,11,"Δ=RMSE(LSTM)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.1946(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,V-MLP,inc,0.004072,0.000997,0.008113,0.004000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,V-MLP,inc,0.004072,0.000977,0.008266,0.001000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,GBDT,cum,-1.679350,-1.824834,-1.522968,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,GBDT,cum,-1.679350,-1.819654,-1.539432,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,GBDT,cum,-1.679350,-1.829573,-1.534920,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,GBDT,inc,-0.258811,-0.294188,-0.228833,0.000000,3,11,"Δ=RMSE(LSTM)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,LSTM,GBDT,inc,-0.258811,-0.290652,-0.228111,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,LSTM,GBDT,inc,-0.258811,-0.294938,-0.225575,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,Transformer,cum,-0.002553,-0.005758,0.000323,0.090000,3,11,"Δ=RMSE(STGCN)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.9458(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,Transformer,cum,-0.002553,-0.005822,0.000587,0.126000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,Transformer,cum,-0.002553,-0.005270,-0.000196,0.022000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,Transformer,inc,-0.000457,-0.003444,0.002362,0.770000,3,11,"Δ=RMSE(STGCN)−RMSE(Transformer); n_win=11; 独立块≈3.7; 配对t_p=0.9458(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,Transformer,inc,-0.000457,-0.003678,0.002698,0.808000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,Transformer,inc,-0.000457,-0.002582,0.001849,0.616000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-Attention,cum,0.072613,0.068737,0.077589,0.000000,3,11,"Δ=RMSE(STGCN)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.0145(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,V-Attention,cum,0.072613,0.069115,0.077024,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-Attention,cum,0.072613,0.068660,0.077628,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-Attention,inc,0.039110,0.034841,0.044654,0.000000,3,11,"Δ=RMSE(STGCN)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.0145(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,V-Attention,inc,0.039110,0.034364,0.044233,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-Attention,inc,0.039110,0.035577,0.044140,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-MLP,cum,0.074758,0.068917,0.082721,0.000000,3,11,"Δ=RMSE(STGCN)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.0230(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,V-MLP,cum,0.074758,0.069251,0.082000,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-MLP,cum,0.074758,0.069120,0.082441,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-MLP,inc,0.030410,0.025746,0.036834,0.000000,3,11,"Δ=RMSE(STGCN)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.0230(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,V-MLP,inc,0.030410,0.025162,0.036530,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,V-MLP,inc,0.030410,0.026605,0.036243,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,GBDT,cum,-1.639703,-1.788686,-1.479242,0.000000,3,11,"Δ=RMSE(STGCN)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,GBDT,cum,-1.639703,-1.782003,-1.495526,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,GBDT,cum,-1.639703,-1.793391,-1.490730,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,GBDT,inc,-0.232473,-0.266802,-0.202682,0.000000,3,11,"Δ=RMSE(STGCN)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,STGCN,GBDT,inc,-0.232473,-0.263735,-0.203033,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,STGCN,GBDT,inc,-0.232473,-0.267813,-0.200342,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-Attention,cum,0.075166,0.069824,0.082831,0.000000,3,11,"Δ=RMSE(Transformer)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.0065(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Transformer,V-Attention,cum,0.075166,0.069934,0.082174,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-Attention,cum,0.075166,0.070374,0.082545,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-Attention,inc,0.039566,0.035062,0.045142,0.000000,3,11,"Δ=RMSE(Transformer)−RMSE(V-Attention); n_win=11; 独立块≈3.7; 配对t_p=0.0065(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Transformer,V-Attention,inc,0.039566,0.035160,0.044845,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-Attention,inc,0.039566,0.035499,0.044151,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-MLP,cum,0.077311,0.070028,0.087829,0.000000,3,11,"Δ=RMSE(Transformer)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.0005(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Transformer,V-MLP,cum,0.077311,0.070146,0.086950,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-MLP,cum,0.077311,0.070718,0.087468,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-MLP,inc,0.030867,0.026400,0.036395,0.000000,3,11,"Δ=RMSE(Transformer)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.0005(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Transformer,V-MLP,inc,0.030867,0.026619,0.036202,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,V-MLP,inc,0.030867,0.026821,0.036042,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,GBDT,cum,-1.637150,-1.784630,-1.478688,0.000000,3,11,"Δ=RMSE(Transformer)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Transformer,GBDT,cum,-1.637150,-1.777707,-1.495542,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,GBDT,cum,-1.637150,-1.789526,-1.489326,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,GBDT,inc,-0.232016,-0.266133,-0.202003,0.000000,3,11,"Δ=RMSE(Transformer)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,Transformer,GBDT,inc,-0.232016,-0.262742,-0.201744,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,Transformer,GBDT,inc,-0.232016,-0.266956,-0.199992,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,V-MLP,cum,0.002145,-0.000243,0.005657,0.091000,3,11,"Δ=RMSE(V-Attention)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.9152(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,V-Attention,V-MLP,cum,0.002145,-0.000476,0.005361,0.116000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,V-MLP,cum,0.002145,0.000184,0.005017,0.031000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,V-MLP,inc,-0.008699,-0.010346,-0.007032,0.000000,3,11,"Δ=RMSE(V-Attention)−RMSE(V-MLP); n_win=11; 独立块≈3.7; 配对t_p=0.9152(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,V-Attention,V-MLP,inc,-0.008699,-0.010415,-0.007011,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,V-MLP,inc,-0.008699,-0.010000,-0.007290,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,GBDT,cum,-1.712316,-1.864129,-1.550548,0.000000,3,11,"Δ=RMSE(V-Attention)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,V-Attention,GBDT,cum,-1.712316,-1.859214,-1.567230,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,GBDT,cum,-1.712316,-1.869684,-1.561690,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,GBDT,inc,-0.271582,-0.308158,-0.239875,0.000000,3,11,"Δ=RMSE(V-Attention)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,V-Attention,GBDT,inc,-0.271582,-0.305128,-0.239550,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-Attention,GBDT,inc,-0.271582,-0.308672,-0.237690,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-MLP,GBDT,cum,-1.714461,-1.871100,-1.550844,0.000000,3,11,"Δ=RMSE(V-MLP)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,V-MLP,GBDT,cum,-1.714461,-1.863882,-1.567371,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-MLP,GBDT,cum,-1.714461,-1.874194,-1.562501,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-MLP,GBDT,inc,-0.262883,-0.298570,-0.231691,0.000000,3,11,"Δ=RMSE(V-MLP)−RMSE(GBDT); n_win=11; 独立块≈3.7; 配对t_p=0.0000(种子口径,勿与p_boot混用)"
+T5_pairwise,10,,V-MLP,GBDT,inc,-0.262883,-0.295597,-0.231281,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T5_pairwise,10,,V-MLP,GBDT,inc,-0.262883,-0.298699,-0.229654,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V0_Pure_TCN,cum,-0.093243,-0.096793,-0.090992,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0142(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V0_Pure_TCN,cum,-0.093243,-0.096640,-0.090801,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V0_Pure_TCN,cum,-0.093243,-0.096445,-0.091302,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V0_Pure_TCN,inc,-0.039241,-0.044473,-0.034551,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0142(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V0_Pure_TCN,inc,-0.039241,-0.044020,-0.034765,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V0_Pure_TCN,inc,-0.039241,-0.044021,-0.034892,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V1_wo_MeanPool,cum,-0.018263,-0.021679,-0.014558,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V1_wo_MeanPool); n_win=11; 独立块≈3.7; 配对t_p=0.5028(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V1_wo_MeanPool,cum,-0.018263,-0.021361,-0.014910,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V1_wo_MeanPool,cum,-0.018263,-0.021910,-0.014208,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V1_wo_MeanPool,inc,-0.002836,-0.004477,-0.000632,0.012000,3,11,"Δ=RMSE(Ours)−RMSE(V1_wo_MeanPool); n_win=11; 独立块≈3.7; 配对t_p=0.5028(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V1_wo_MeanPool,inc,-0.002836,-0.004478,-0.000815,0.007000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V1_wo_MeanPool,inc,-0.002836,-0.004315,-0.000678,0.013000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V2_wo_GCN,cum,-0.106761,-0.110447,-0.104227,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V2_wo_GCN); n_win=11; 独立块≈3.7; 配对t_p=0.0006(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V2_wo_GCN,cum,-0.106761,-0.110509,-0.103946,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V2_wo_GCN,cum,-0.106761,-0.109673,-0.104618,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V2_wo_GCN,inc,-0.053779,-0.060530,-0.047442,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V2_wo_GCN); n_win=11; 独立块≈3.7; 配对t_p=0.0006(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V2_wo_GCN,inc,-0.053779,-0.060129,-0.047649,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V2_wo_GCN,inc,-0.053779,-0.059806,-0.048164,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V3_wo_PhysicsGate,cum,-0.070236,-0.085922,-0.058842,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V3_wo_PhysicsGate); n_win=11; 独立块≈3.7; 配对t_p=0.0254(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V3_wo_PhysicsGate,cum,-0.070236,-0.084580,-0.059619,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V3_wo_PhysicsGate,cum,-0.070236,-0.086298,-0.058786,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V3_wo_PhysicsGate,inc,-0.047992,-0.056759,-0.040853,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V3_wo_PhysicsGate); n_win=11; 独立块≈3.7; 配对t_p=0.0254(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V3_wo_PhysicsGate,inc,-0.047992,-0.055393,-0.041201,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V3_wo_PhysicsGate,inc,-0.047992,-0.056407,-0.041230,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V5_Full_Model,cum,-0.005219,-0.008087,-0.002303,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Full_Model); n_win=11; 独立块≈3.7; 配对t_p=0.8376(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V5_Full_Model,cum,-0.005219,-0.007851,-0.002497,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V5_Full_Model,cum,-0.005219,-0.008227,-0.001954,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V5_Full_Model,inc,-0.001577,-0.003511,0.001145,0.237000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Full_Model); n_win=11; 独立块≈3.7; 配对t_p=0.8376(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V5_Full_Model,inc,-0.001577,-0.003564,0.000860,0.195000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V5_Full_Model,inc,-0.001577,-0.003350,0.001048,0.240000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V6_wo_CrossNodeAttn,cum,-0.014329,-0.019497,-0.010757,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V6_wo_CrossNodeAttn); n_win=11; 独立块≈3.7; 配对t_p=0.5806(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V6_wo_CrossNodeAttn,cum,-0.014329,-0.019100,-0.010865,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V6_wo_CrossNodeAttn,cum,-0.014329,-0.019497,-0.010681,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V6_wo_CrossNodeAttn,inc,-0.016240,-0.018130,-0.014747,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V6_wo_CrossNodeAttn); n_win=11; 独立块≈3.7; 配对t_p=0.5806(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V6_wo_CrossNodeAttn,inc,-0.016240,-0.018056,-0.014755,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V6_wo_CrossNodeAttn,inc,-0.016240,-0.017845,-0.014851,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V8_wo_VerticalAll,cum,0.000049,0.000019,0.000095,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V8_wo_VerticalAll); n_win=11; 独立块≈3.7; 配对t_p=0.8001(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V8_wo_VerticalAll,cum,0.000049,0.000018,0.000090,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V8_wo_VerticalAll,cum,0.000049,0.000023,0.000090,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V8_wo_VerticalAll,inc,0.000098,0.000088,0.000109,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V8_wo_VerticalAll); n_win=11; 独立块≈3.7; 配对t_p=0.8001(种子口径,勿与p_boot混用)"
+T4_ablation_vs_Ours,10,,Ours,V8_wo_VerticalAll,inc,0.000098,0.000088,0.000110,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+T4_ablation_vs_Ours,10,,Ours,V8_wo_VerticalAll,inc,0.000098,0.000090,0.000106,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,BiLSTM-Attn,cum,-0.003457,-0.006683,-0.001342,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8842(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,BiLSTM-Attn,cum,-0.003457,-0.006308,-0.001288,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,BiLSTM-Attn,cum,-0.003457,-0.006454,-0.001525,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,BiLSTM-Attn,inc,-0.004487,-0.005800,-0.003247,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8842(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,BiLSTM-Attn,inc,-0.004487,-0.006011,-0.003188,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,BiLSTM-Attn,inc,-0.004487,-0.005425,-0.003530,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,GraphWaveNet,cum,-0.021072,-0.023595,-0.018553,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4349(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,GraphWaveNet,cum,-0.021072,-0.023344,-0.018883,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,GraphWaveNet,cum,-0.021072,-0.023748,-0.018511,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,GraphWaveNet,inc,-0.009942,-0.011049,-0.009245,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4349(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,GraphWaveNet,inc,-0.009942,-0.011106,-0.009010,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,GraphWaveNet,inc,-0.009942,-0.010748,-0.009316,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V0_Pure_TCN,cum,-0.097255,-0.101788,-0.094097,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,V0_Pure_TCN,cum,-0.097255,-0.101328,-0.094157,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V0_Pure_TCN,cum,-0.097255,-0.101406,-0.094289,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V0_Pure_TCN,inc,-0.030698,-0.035100,-0.026514,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,V0_Pure_TCN,inc,-0.030698,-0.034682,-0.026728,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V0_Pure_TCN,inc,-0.030698,-0.034886,-0.026892,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V5_Ours,cum,-0.009901,-0.012680,-0.007156,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,V5_Ours,cum,-0.009901,-0.012411,-0.007442,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V5_Ours,cum,-0.009901,-0.012789,-0.006926,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V5_Ours,inc,-0.001304,-0.003102,0.001109,0.282000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.0,Ours,V5_Ours,inc,-0.001304,-0.003105,0.000937,0.237000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.0,Ours,V5_Ours,inc,-0.001304,-0.002892,0.001106,0.288000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,BiLSTM-Attn,cum,-0.020061,-0.022784,-0.017542,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.4180(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,BiLSTM-Attn,cum,-0.020061,-0.022423,-0.017780,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,BiLSTM-Attn,cum,-0.020061,-0.022693,-0.017406,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,BiLSTM-Attn,inc,-0.017171,-0.018476,-0.015943,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.4180(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,BiLSTM-Attn,inc,-0.017171,-0.018805,-0.015956,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,BiLSTM-Attn,inc,-0.017171,-0.018195,-0.016162,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,GraphWaveNet,cum,-0.025886,-0.028382,-0.023440,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.3702(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,GraphWaveNet,cum,-0.025886,-0.028084,-0.023689,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,GraphWaveNet,cum,-0.025886,-0.028523,-0.023408,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,GraphWaveNet,inc,-0.009984,-0.011120,-0.009279,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.3702(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,GraphWaveNet,inc,-0.009984,-0.011178,-0.009057,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,GraphWaveNet,inc,-0.009984,-0.010826,-0.009338,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V0_Pure_TCN,cum,-0.102191,-0.105933,-0.099449,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0030(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,V0_Pure_TCN,cum,-0.102191,-0.105616,-0.099570,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V0_Pure_TCN,cum,-0.102191,-0.105485,-0.099764,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V0_Pure_TCN,inc,-0.035785,-0.040961,-0.030821,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0030(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,V0_Pure_TCN,inc,-0.035785,-0.040474,-0.031123,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V0_Pure_TCN,inc,-0.035785,-0.040735,-0.031278,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V5_Ours,cum,-0.011867,-0.014797,-0.008956,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6602(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,V5_Ours,cum,-0.011867,-0.014538,-0.009210,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V5_Ours,cum,-0.011867,-0.014926,-0.008604,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V5_Ours,inc,-0.001773,-0.003489,0.000588,0.148000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6602(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.1,Ours,V5_Ours,inc,-0.001773,-0.003561,0.000377,0.110000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.1,Ours,V5_Ours,inc,-0.001773,-0.003342,0.000518,0.119000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,BiLSTM-Attn,cum,-0.002090,-0.003872,-0.000590,0.004000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.9215(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,BiLSTM-Attn,cum,-0.002090,-0.003886,-0.000371,0.014000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,BiLSTM-Attn,cum,-0.002090,-0.003722,-0.000879,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,BiLSTM-Attn,inc,-0.006766,-0.007673,-0.005876,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.9215(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,BiLSTM-Attn,inc,-0.006766,-0.007870,-0.005946,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,BiLSTM-Attn,inc,-0.006766,-0.007525,-0.006088,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,GraphWaveNet,cum,-0.027059,-0.029360,-0.024724,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.3509(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,GraphWaveNet,cum,-0.027059,-0.029152,-0.024946,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,GraphWaveNet,cum,-0.027059,-0.029552,-0.024668,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,GraphWaveNet,inc,-0.009610,-0.010699,-0.008940,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.3509(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,GraphWaveNet,inc,-0.009610,-0.010765,-0.008699,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,GraphWaveNet,inc,-0.009610,-0.010363,-0.009033,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V0_Pure_TCN,cum,-0.103162,-0.107129,-0.100467,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0036(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,V0_Pure_TCN,cum,-0.103162,-0.106887,-0.100436,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V0_Pure_TCN,cum,-0.103162,-0.106680,-0.100722,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V0_Pure_TCN,inc,-0.033707,-0.038569,-0.028944,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0036(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,V0_Pure_TCN,inc,-0.033707,-0.038138,-0.029185,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V0_Pure_TCN,inc,-0.033707,-0.038376,-0.029391,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V5_Ours,cum,-0.008066,-0.010781,-0.005324,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7541(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,V5_Ours,cum,-0.008066,-0.010566,-0.005594,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V5_Ours,cum,-0.008066,-0.010936,-0.005074,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V5_Ours,inc,-0.000123,-0.001927,0.002334,0.840000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7541(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.2,Ours,V5_Ours,inc,-0.000123,-0.001903,0.002105,0.915000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.2,Ours,V5_Ours,inc,-0.000123,-0.001740,0.002368,0.875000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,BiLSTM-Attn,cum,-0.004262,-0.006294,-0.002076,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8475(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,BiLSTM-Attn,cum,-0.004262,-0.006304,-0.002257,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,BiLSTM-Attn,cum,-0.004262,-0.006163,-0.002026,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,BiLSTM-Attn,inc,-0.007225,-0.008281,-0.006073,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8475(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,BiLSTM-Attn,inc,-0.007225,-0.008458,-0.006110,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,BiLSTM-Attn,inc,-0.007225,-0.008075,-0.006192,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,GraphWaveNet,cum,-0.026631,-0.028988,-0.024339,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.3580(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,GraphWaveNet,cum,-0.026631,-0.028753,-0.024552,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,GraphWaveNet,cum,-0.026631,-0.029150,-0.024251,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,GraphWaveNet,inc,-0.009749,-0.010877,-0.009069,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.3580(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,GraphWaveNet,inc,-0.009749,-0.010908,-0.008820,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,GraphWaveNet,inc,-0.009749,-0.010532,-0.009156,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V0_Pure_TCN,cum,-0.103819,-0.107723,-0.100848,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0029(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,V0_Pure_TCN,cum,-0.103819,-0.107397,-0.100965,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V0_Pure_TCN,cum,-0.103819,-0.107274,-0.101160,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V0_Pure_TCN,inc,-0.036280,-0.041588,-0.031168,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0029(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,V0_Pure_TCN,inc,-0.036280,-0.041103,-0.031407,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V0_Pure_TCN,inc,-0.036280,-0.041384,-0.031585,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V5_Ours,cum,-0.012685,-0.015668,-0.009691,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6373(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,V5_Ours,cum,-0.012685,-0.015425,-0.009956,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V5_Ours,cum,-0.012685,-0.015802,-0.009281,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V5_Ours,inc,-0.001079,-0.002805,0.001290,0.327000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6373(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.3,Ours,V5_Ours,inc,-0.001079,-0.002809,0.001073,0.315000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.3,Ours,V5_Ours,inc,-0.001079,-0.002663,0.001240,0.347000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,BiLSTM-Attn,cum,-0.003830,-0.005954,-0.001991,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8636(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,BiLSTM-Attn,cum,-0.003830,-0.005848,-0.001941,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,BiLSTM-Attn,cum,-0.003830,-0.005545,-0.002226,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,BiLSTM-Attn,inc,-0.005498,-0.006461,-0.004355,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8636(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,BiLSTM-Attn,inc,-0.005498,-0.006376,-0.004449,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,BiLSTM-Attn,inc,-0.005498,-0.006430,-0.004369,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,GraphWaveNet,cum,-0.015008,-0.017497,-0.012496,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.5864(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,GraphWaveNet,cum,-0.015008,-0.017271,-0.012772,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,GraphWaveNet,cum,-0.015008,-0.017725,-0.012414,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,GraphWaveNet,inc,-0.007238,-0.008102,-0.006467,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.5864(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,GraphWaveNet,inc,-0.007238,-0.008217,-0.006411,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,GraphWaveNet,inc,-0.007238,-0.007963,-0.006520,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V0_Pure_TCN,cum,-0.105469,-0.109487,-0.102573,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0019(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,V0_Pure_TCN,cum,-0.105469,-0.109113,-0.102700,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V0_Pure_TCN,cum,-0.105469,-0.109042,-0.102809,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V0_Pure_TCN,inc,-0.036043,-0.041213,-0.031066,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0019(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,V0_Pure_TCN,inc,-0.036043,-0.040730,-0.031216,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V0_Pure_TCN,inc,-0.036043,-0.040992,-0.031440,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V5_Ours,cum,-0.014318,-0.017150,-0.011512,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.5998(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,V5_Ours,cum,-0.014318,-0.016873,-0.011820,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V5_Ours,cum,-0.014318,-0.017251,-0.011299,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V5_Ours,inc,-0.001884,-0.003576,0.000429,0.106000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.5998(种子口径,勿与p_boot混用)"
+S4.3_stress,10,missing_0.5,Ours,V5_Ours,inc,-0.001884,-0.003643,0.000205,0.073000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,missing_0.5,Ours,V5_Ours,inc,-0.001884,-0.003439,0.000362,0.086000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,BiLSTM-Attn,cum,-0.003457,-0.006683,-0.001342,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8842(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,BiLSTM-Attn,cum,-0.003457,-0.006308,-0.001288,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,BiLSTM-Attn,cum,-0.003457,-0.006454,-0.001525,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,BiLSTM-Attn,inc,-0.004487,-0.005800,-0.003247,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8842(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,BiLSTM-Attn,inc,-0.004487,-0.006011,-0.003188,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,BiLSTM-Attn,inc,-0.004487,-0.005425,-0.003530,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,GraphWaveNet,cum,-0.021072,-0.023595,-0.018553,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4349(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,GraphWaveNet,cum,-0.021072,-0.023344,-0.018883,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,GraphWaveNet,cum,-0.021072,-0.023748,-0.018511,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,GraphWaveNet,inc,-0.009942,-0.011049,-0.009245,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4349(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,GraphWaveNet,inc,-0.009942,-0.011106,-0.009010,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,GraphWaveNet,inc,-0.009942,-0.010748,-0.009316,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V0_Pure_TCN,cum,-0.097255,-0.101788,-0.094097,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,V0_Pure_TCN,cum,-0.097255,-0.101328,-0.094157,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V0_Pure_TCN,cum,-0.097255,-0.101406,-0.094289,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V0_Pure_TCN,inc,-0.030698,-0.035100,-0.026514,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,V0_Pure_TCN,inc,-0.030698,-0.034682,-0.026728,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V0_Pure_TCN,inc,-0.030698,-0.034886,-0.026892,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V5_Ours,cum,-0.009901,-0.012680,-0.007156,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,V5_Ours,cum,-0.009901,-0.012411,-0.007442,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V5_Ours,cum,-0.009901,-0.012789,-0.006926,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V5_Ours,inc,-0.001304,-0.003102,0.001109,0.282000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.0,Ours,V5_Ours,inc,-0.001304,-0.003105,0.000937,0.237000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.0,Ours,V5_Ours,inc,-0.001304,-0.002892,0.001106,0.288000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,BiLSTM-Attn,cum,-0.006451,-0.008473,-0.004409,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.7876(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,BiLSTM-Attn,cum,-0.006451,-0.008289,-0.004635,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,BiLSTM-Attn,cum,-0.006451,-0.008512,-0.004333,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,BiLSTM-Attn,inc,-0.006023,-0.007467,-0.004579,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.7876(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,BiLSTM-Attn,inc,-0.006023,-0.007487,-0.004560,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,BiLSTM-Attn,inc,-0.006023,-0.007061,-0.004686,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,GraphWaveNet,cum,-0.035979,-0.038507,-0.033629,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.2417(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,GraphWaveNet,cum,-0.035979,-0.038141,-0.033864,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,GraphWaveNet,cum,-0.035979,-0.038638,-0.033677,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,GraphWaveNet,inc,-0.013197,-0.014613,-0.012096,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.2417(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,GraphWaveNet,inc,-0.013197,-0.014643,-0.011777,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,GraphWaveNet,inc,-0.013197,-0.014345,-0.012255,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V0_Pure_TCN,cum,-0.091275,-0.095684,-0.088260,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0079(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,V0_Pure_TCN,cum,-0.091275,-0.095344,-0.088320,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V0_Pure_TCN,cum,-0.091275,-0.095333,-0.088501,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V0_Pure_TCN,inc,-0.033017,-0.037883,-0.028352,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0079(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,V0_Pure_TCN,inc,-0.033017,-0.037445,-0.028562,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V0_Pure_TCN,inc,-0.033017,-0.037865,-0.028707,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V5_Ours,cum,-0.009978,-0.012935,-0.007037,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,V5_Ours,cum,-0.009978,-0.012667,-0.007291,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V5_Ours,cum,-0.009978,-0.013040,-0.006698,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V5_Ours,inc,-0.001304,-0.003184,0.001275,0.301000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.05,Ours,V5_Ours,inc,-0.001304,-0.003215,0.001038,0.270000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.05,Ours,V5_Ours,inc,-0.001304,-0.002971,0.001209,0.310000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,BiLSTM-Attn,cum,-0.021206,-0.023002,-0.019412,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.3935(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,BiLSTM-Attn,cum,-0.021206,-0.022791,-0.019635,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,BiLSTM-Attn,cum,-0.021206,-0.023092,-0.019308,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,BiLSTM-Attn,inc,-0.016159,-0.017705,-0.015116,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.3935(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,BiLSTM-Attn,inc,-0.016159,-0.017593,-0.015039,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,BiLSTM-Attn,inc,-0.016159,-0.017439,-0.015152,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,GraphWaveNet,cum,-0.039540,-0.041860,-0.037356,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.1963(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,GraphWaveNet,cum,-0.039540,-0.041595,-0.037482,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,GraphWaveNet,cum,-0.039540,-0.041924,-0.037356,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,GraphWaveNet,inc,-0.014313,-0.015872,-0.013000,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.1963(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,GraphWaveNet,inc,-0.014313,-0.015893,-0.012740,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,GraphWaveNet,inc,-0.014313,-0.015579,-0.013229,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V0_Pure_TCN,cum,-0.095916,-0.099759,-0.093053,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,V0_Pure_TCN,cum,-0.095916,-0.099413,-0.093180,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V0_Pure_TCN,cum,-0.095916,-0.099272,-0.093420,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V0_Pure_TCN,inc,-0.031590,-0.036370,-0.027059,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,V0_Pure_TCN,inc,-0.031590,-0.035934,-0.027202,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V0_Pure_TCN,inc,-0.031590,-0.036279,-0.027318,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V5_Ours,cum,-0.011806,-0.014515,-0.009064,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6580(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,V5_Ours,cum,-0.011806,-0.014315,-0.009344,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V5_Ours,cum,-0.011806,-0.014729,-0.008847,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V5_Ours,inc,-0.001109,-0.002851,0.001297,0.324000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6580(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.1,Ours,V5_Ours,inc,-0.001109,-0.002860,0.001062,0.308000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.1,Ours,V5_Ours,inc,-0.001109,-0.002714,0.001269,0.344000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,BiLSTM-Attn,cum,-0.013242,-0.015700,-0.011661,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.5346(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,BiLSTM-Attn,cum,-0.013242,-0.015554,-0.011554,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,BiLSTM-Attn,cum,-0.013242,-0.015465,-0.011782,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,BiLSTM-Attn,inc,-0.004977,-0.005918,-0.004174,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.5346(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,BiLSTM-Attn,inc,-0.004977,-0.005979,-0.004184,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,BiLSTM-Attn,inc,-0.004977,-0.005688,-0.004348,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,GraphWaveNet,cum,-0.037386,-0.039736,-0.035187,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.2206(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,GraphWaveNet,cum,-0.037386,-0.039455,-0.035324,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,GraphWaveNet,cum,-0.037386,-0.039874,-0.035148,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,GraphWaveNet,inc,-0.013578,-0.015096,-0.012321,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.2206(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,GraphWaveNet,inc,-0.013578,-0.015109,-0.012058,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,GraphWaveNet,inc,-0.013578,-0.014793,-0.012518,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V0_Pure_TCN,cum,-0.104070,-0.107975,-0.101191,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0023(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,V0_Pure_TCN,cum,-0.104070,-0.107639,-0.101310,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V0_Pure_TCN,cum,-0.104070,-0.107504,-0.101575,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V0_Pure_TCN,inc,-0.035449,-0.040337,-0.030722,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0023(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,V0_Pure_TCN,inc,-0.035449,-0.039863,-0.030778,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V0_Pure_TCN,inc,-0.035449,-0.040128,-0.031074,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V5_Ours,cum,-0.012649,-0.015513,-0.009823,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6381(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,V5_Ours,cum,-0.012649,-0.015251,-0.010075,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V5_Ours,cum,-0.012649,-0.015634,-0.009498,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V5_Ours,inc,-0.000953,-0.002657,0.001371,0.366000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6381(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.2,Ours,V5_Ours,inc,-0.000953,-0.002653,0.001146,0.357000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.2,Ours,V5_Ours,inc,-0.000953,-0.002535,0.001346,0.407000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,BiLSTM-Attn,cum,-0.011272,-0.012516,-0.010033,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.6111(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,BiLSTM-Attn,cum,-0.011272,-0.012372,-0.010129,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,BiLSTM-Attn,cum,-0.011272,-0.012519,-0.009960,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,BiLSTM-Attn,inc,-0.004583,-0.005673,-0.003521,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.6111(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,BiLSTM-Attn,inc,-0.004583,-0.005818,-0.003435,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,BiLSTM-Attn,inc,-0.004583,-0.005412,-0.003761,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,GraphWaveNet,cum,-0.039742,-0.041953,-0.037617,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.1959(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,GraphWaveNet,cum,-0.039742,-0.041721,-0.037764,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,GraphWaveNet,cum,-0.039742,-0.042019,-0.037633,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,GraphWaveNet,inc,-0.015009,-0.016774,-0.013561,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.1959(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,GraphWaveNet,inc,-0.015009,-0.016768,-0.013258,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,GraphWaveNet,inc,-0.015009,-0.016405,-0.013806,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V0_Pure_TCN,cum,-0.109110,-0.112836,-0.106035,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0017(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,V0_Pure_TCN,cum,-0.109110,-0.112561,-0.106171,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V0_Pure_TCN,cum,-0.109110,-0.112491,-0.106171,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V0_Pure_TCN,inc,-0.036961,-0.042070,-0.031974,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0017(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,V0_Pure_TCN,inc,-0.036961,-0.041622,-0.032140,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V0_Pure_TCN,inc,-0.036961,-0.041915,-0.032468,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V5_Ours,cum,-0.013227,-0.016067,-0.010359,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6223(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,V5_Ours,cum,-0.013227,-0.015855,-0.010613,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V5_Ours,cum,-0.013227,-0.016201,-0.010022,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V5_Ours,inc,-0.000473,-0.002164,0.001835,0.625000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6223(种子口径,勿与p_boot混用)"
+S4.3_stress,10,noise_0.3,Ours,V5_Ours,inc,-0.000473,-0.002157,0.001633,0.632000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,noise_0.3,Ours,V5_Ours,inc,-0.000473,-0.002043,0.001819,0.604000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,BiLSTM-Attn,cum,-0.003457,-0.006683,-0.001342,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8842(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,BiLSTM-Attn,cum,-0.003457,-0.006308,-0.001288,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,BiLSTM-Attn,cum,-0.003457,-0.006454,-0.001525,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,BiLSTM-Attn,inc,-0.004487,-0.005800,-0.003247,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.8842(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,BiLSTM-Attn,inc,-0.004487,-0.006011,-0.003188,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,BiLSTM-Attn,inc,-0.004487,-0.005425,-0.003530,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,GraphWaveNet,cum,-0.021072,-0.023595,-0.018553,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4349(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,GraphWaveNet,cum,-0.021072,-0.023344,-0.018883,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,GraphWaveNet,cum,-0.021072,-0.023748,-0.018511,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,GraphWaveNet,inc,-0.009942,-0.011049,-0.009245,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.4349(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,GraphWaveNet,inc,-0.009942,-0.011106,-0.009010,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,GraphWaveNet,inc,-0.009942,-0.010748,-0.009316,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V0_Pure_TCN,cum,-0.097255,-0.101788,-0.094097,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,V0_Pure_TCN,cum,-0.097255,-0.101328,-0.094157,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V0_Pure_TCN,cum,-0.097255,-0.101406,-0.094289,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V0_Pure_TCN,inc,-0.030698,-0.035100,-0.026514,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,V0_Pure_TCN,inc,-0.030698,-0.034682,-0.026728,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V0_Pure_TCN,inc,-0.030698,-0.034886,-0.026892,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V5_Ours,cum,-0.009901,-0.012680,-0.007156,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,V5_Ours,cum,-0.009901,-0.012411,-0.007442,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V5_Ours,cum,-0.009901,-0.012789,-0.006926,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V5_Ours,inc,-0.001304,-0.003102,0.001109,0.282000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7097(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_1,Ours,V5_Ours,inc,-0.001304,-0.003105,0.000937,0.237000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_1,Ours,V5_Ours,inc,-0.001304,-0.002892,0.001106,0.288000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,BiLSTM-Attn,cum,-0.030396,-0.039337,-0.020969,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.1604(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,BiLSTM-Attn,cum,-0.030396,-0.038749,-0.021425,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,BiLSTM-Attn,cum,-0.030396,-0.038397,-0.021585,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,BiLSTM-Attn,inc,-0.008240,-0.010700,-0.005905,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.1604(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,BiLSTM-Attn,inc,-0.008240,-0.011083,-0.005798,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,BiLSTM-Attn,inc,-0.008240,-0.010071,-0.006382,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,GraphWaveNet,cum,0.012768,0.010621,0.014901,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.5268(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,GraphWaveNet,cum,0.012768,0.010843,0.014654,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,GraphWaveNet,cum,0.012768,0.010446,0.015003,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,GraphWaveNet,inc,-0.013076,-0.015775,-0.010563,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.5268(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,GraphWaveNet,inc,-0.013076,-0.015735,-0.010725,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,GraphWaveNet,inc,-0.013076,-0.015400,-0.010796,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V0_Pure_TCN,cum,-0.074406,-0.077278,-0.071620,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0043(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,V0_Pure_TCN,cum,-0.074406,-0.077431,-0.071466,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V0_Pure_TCN,cum,-0.074406,-0.077075,-0.071831,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V0_Pure_TCN,inc,-0.054122,-0.061865,-0.047045,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0043(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,V0_Pure_TCN,inc,-0.054122,-0.061833,-0.046860,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V0_Pure_TCN,inc,-0.054122,-0.061520,-0.048308,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V5_Ours,cum,0.007505,0.001857,0.014580,0.006000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7218(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,V5_Ours,cum,0.007505,0.001514,0.014105,0.010000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V5_Ours,cum,0.007505,0.002979,0.013587,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V5_Ours,inc,-0.007245,-0.008295,-0.006434,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.7218(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_2,Ours,V5_Ours,inc,-0.007245,-0.008255,-0.006311,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_2,Ours,V5_Ours,inc,-0.007245,-0.008159,-0.006462,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,BiLSTM-Attn,cum,-0.063515,-0.067209,-0.058303,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.1053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,BiLSTM-Attn,cum,-0.063515,-0.067386,-0.058162,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,BiLSTM-Attn,cum,-0.063515,-0.066628,-0.059028,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,BiLSTM-Attn,inc,-0.010346,-0.015260,-0.006438,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.1053(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,BiLSTM-Attn,inc,-0.010346,-0.014848,-0.006230,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,BiLSTM-Attn,inc,-0.010346,-0.015057,-0.006692,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,GraphWaveNet,cum,-0.005080,-0.009794,-0.000345,0.038000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.8669(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,GraphWaveNet,cum,-0.005080,-0.009298,-0.000704,0.019000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,GraphWaveNet,cum,-0.005080,-0.009893,-0.000143,0.037000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,GraphWaveNet,inc,-0.020468,-0.025771,-0.017122,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.8669(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,GraphWaveNet,inc,-0.020468,-0.025704,-0.016300,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,GraphWaveNet,inc,-0.020468,-0.024863,-0.017132,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V0_Pure_TCN,cum,-0.067130,-0.079048,-0.057589,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0804(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,V0_Pure_TCN,cum,-0.067130,-0.077841,-0.058391,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V0_Pure_TCN,cum,-0.067130,-0.078729,-0.057861,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V0_Pure_TCN,inc,-0.037283,-0.043458,-0.031168,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0804(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,V0_Pure_TCN,inc,-0.037283,-0.043303,-0.031258,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V0_Pure_TCN,inc,-0.037283,-0.042708,-0.031861,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V5_Ours,cum,-0.016213,-0.021207,-0.011489,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6578(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,V5_Ours,cum,-0.016213,-0.020704,-0.011998,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V5_Ours,cum,-0.016213,-0.021362,-0.011484,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V5_Ours,inc,-0.007060,-0.008360,-0.005682,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.6578(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_3,Ours,V5_Ours,inc,-0.007060,-0.008836,-0.005297,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_3,Ours,V5_Ours,inc,-0.007060,-0.008089,-0.006167,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,BiLSTM-Attn,cum,0.036419,0.033144,0.039137,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.3411(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,BiLSTM-Attn,cum,0.036419,0.033589,0.039029,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,BiLSTM-Attn,cum,0.036419,0.033351,0.039022,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,BiLSTM-Attn,inc,-0.013456,-0.017035,-0.010364,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(BiLSTM-Attn); n_win=11; 独立块≈3.7; 配对t_p=0.3411(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,BiLSTM-Attn,inc,-0.013456,-0.016918,-0.010128,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,BiLSTM-Attn,inc,-0.013456,-0.016463,-0.010921,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,GraphWaveNet,cum,-0.024340,-0.035457,-0.011692,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.5245(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,GraphWaveNet,cum,-0.024340,-0.035068,-0.012109,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,GraphWaveNet,cum,-0.024340,-0.034245,-0.013202,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,GraphWaveNet,inc,-0.020259,-0.022927,-0.018211,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(GraphWaveNet); n_win=11; 独立块≈3.7; 配对t_p=0.5245(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,GraphWaveNet,inc,-0.020259,-0.023053,-0.017605,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,GraphWaveNet,inc,-0.020259,-0.022311,-0.018643,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V0_Pure_TCN,cum,-0.090799,-0.093037,-0.089014,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0603(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,V0_Pure_TCN,cum,-0.090799,-0.092894,-0.089075,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V0_Pure_TCN,cum,-0.090799,-0.093073,-0.089014,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V0_Pure_TCN,inc,-0.077371,-0.085454,-0.070245,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V0_Pure_TCN); n_win=11; 独立块≈3.7; 配对t_p=0.0603(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,V0_Pure_TCN,inc,-0.077371,-0.084888,-0.069967,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V0_Pure_TCN,inc,-0.077371,-0.084622,-0.070955,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V5_Ours,cum,0.033836,0.028478,0.039231,0.000000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.1965(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,V5_Ours,cum,0.033836,0.029036,0.039150,0.000000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V5_Ours,cum,0.033836,0.028948,0.039125,0.000000,4,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V5_Ours,inc,-0.006242,-0.011882,-0.000670,0.020000,3,11,"Δ=RMSE(Ours)−RMSE(V5_Ours); n_win=11; 独立块≈3.7; 配对t_p=0.1965(种子口径,勿与p_boot混用)"
+S4.3_stress,10,sparse_5,Ours,V5_Ours,inc,-0.006242,-0.011533,-0.001328,0.010000,2,11,块长敏感性（0.5L* / 1.5L*）
+S4.3_stress,10,sparse_5,Ours,V5_Ours,inc,-0.006242,-0.011831,-0.000791,0.027000,4,11,块长敏感性（0.5L* / 1.5L*）
+single_model,10,,Ours,(single),cum,1.568738,1.449580,1.660271,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours,(single),inc,0.323612,0.276701,0.379824,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,TCN-Only,(single),cum,1.661980,1.545953,1.752581,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,TCN-Only,(single),inc,0.362853,0.320714,0.414761,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,BiLSTM-Attn,(single),cum,1.595653,1.476203,1.688530,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,BiLSTM-Attn,(single),inc,0.332295,0.287419,0.386989,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,GraphWaveNet,(single),cum,1.591029,1.470892,1.683335,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,GraphWaveNet,(single),inc,0.334213,0.287435,0.389964,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,LSTM,(single),cum,1.614213,1.498221,1.702867,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,LSTM,(single),inc,0.330391,0.284783,0.386067,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,STGCN,(single),cum,1.653860,1.535701,1.745941,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,STGCN,(single),inc,0.356730,0.313247,0.410046,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Transformer,(single),cum,1.656413,1.541297,1.746163,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Transformer,(single),inc,0.357187,0.313360,0.410248,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V-Attention,(single),cum,1.581247,1.459147,1.675434,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V-Attention,(single),inc,0.317620,0.268765,0.375770,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V-MLP,(single),cum,1.579102,1.454291,1.674904,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V-MLP,(single),inc,0.326320,0.276828,0.384200,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,GBDT,(single),cum,3.293563,3.202132,3.371414,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,GBDT,(single),inc,0.589202,0.543963,0.627718,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V0_Pure_TCN,(single),cum,1.661980,1.545953,1.752581,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V0_Pure_TCN,(single),inc,0.362853,0.320714,0.414761,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V1_wo_MeanPool,(single),cum,1.587001,1.464209,1.681898,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V1_wo_MeanPool,(single),inc,0.326448,0.277847,0.383926,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V2_wo_GCN,(single),cum,1.675499,1.559138,1.766139,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V2_wo_GCN,(single),inc,0.377390,0.337087,0.427622,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V3_wo_PhysicsGate,(single),cum,1.638974,1.534886,1.719577,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V3_wo_PhysicsGate,(single),inc,0.371603,0.332465,0.420656,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V5_Full_Model,(single),cum,1.573957,1.451949,1.668249,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V5_Full_Model,(single),inc,0.325188,0.276132,0.382639,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V6_wo_CrossNodeAttn,(single),cum,1.583067,1.469183,1.670895,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V6_wo_CrossNodeAttn,(single),inc,0.339852,0.294416,0.395276,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V8_wo_VerticalAll,(single),cum,1.568688,1.449490,1.660238,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,V8_wo_VerticalAll,(single),inc,0.323514,0.276605,0.379722,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.0,(single),cum,1.569957,1.450549,1.661666,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.0,(single),inc,0.324271,0.277259,0.380547,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.1,(single),cum,1.568935,1.449703,1.660513,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.1,(single),inc,0.323870,0.276748,0.380254,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.2,(single),cum,1.568609,1.449297,1.660229,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.2,(single),inc,0.324441,0.277326,0.380885,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.3,(single),cum,1.569062,1.449978,1.660564,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.3,(single),inc,0.324334,0.277200,0.380814,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.5,(single),cum,1.568756,1.449311,1.660517,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@missing_0.5,(single),inc,0.323996,0.276811,0.380561,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.0,(single),cum,1.569957,1.450549,1.661666,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.0,(single),inc,0.324271,0.277259,0.380547,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.05,(single),cum,1.570642,1.451397,1.662201,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.05,(single),inc,0.324345,0.277456,0.380518,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.1,(single),cum,1.568641,1.449013,1.660517,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.1,(single),inc,0.324181,0.277091,0.380657,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.2,(single),cum,1.569252,1.449758,1.661055,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.2,(single),inc,0.324713,0.277658,0.381200,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.3,(single),cum,1.568852,1.449353,1.660670,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@noise_0.3,(single),inc,0.325138,0.278144,0.381590,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_1,(single),cum,1.569957,1.450549,1.661666,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_1,(single),inc,0.324271,0.277259,0.380547,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_2,(single),cum,1.560431,1.462689,1.627393,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_2,(single),inc,0.322025,0.278765,0.375261,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_3,(single),cum,1.637290,1.498824,1.749984,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_3,(single),inc,0.347502,0.298625,0.401893,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_5,(single),cum,1.617288,1.525815,1.687835,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI
+single_model,10,,Ours@sparse_5,(single),inc,0.333457,0.296656,0.371384,,3,11,单模型 mean RMSE_last：delta_RMSE 列=点值，ci=95%CI

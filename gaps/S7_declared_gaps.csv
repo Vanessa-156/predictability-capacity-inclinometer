@@ -1,0 +1,27 @@
+﻿id,gap,kind,section,main_text_link
+1,Wall-toe elevation and guide-groove azimuth (A0) datum not archived,not obtained,S1.3,"§2.1, §5.3"
+2,Casing-bottom-stratum correspondence available only as a surrogate,surrogate,S1.3,§5.3
+3,Support parameters per zone not compiled,partial,"S1.3, S1.3.6","§2.1, §5.3"
+4,"Settlement-point totals, numbering and layout limited",partial,S1.3.8,"§2.2, §4.1"
+5,"Load-cell model, range and metrology not archived",partial,S1.3.9,"§2.1, §5.3"
+6,Well-screen levels and gauge model/range not archived,partial,S1.3.10,§2.1
+7,Instrument metrology and end-to-end uncertainty budget not archived,partial,S1.3.11,"§2.1, §5.3"
+8,Table S1 provenance and per-layer sampling depths partial,partial,S1.3.15,§2.1
+9,Stage-2 VICD calibration FPR 22.7-28.0% above nominal 5%,known limitation,S3.1.4,§3.1
+10,Autocorrelation levels 0.2/0.5/0.9 not all implemented,not obtained,S3.1.6,§3.1
+11,Generating record for threshold-sensitivity data not located,not obtained,S3.1.6,-
+12,Surrogate counts 250/333/500 not stated in the main text,not stated,S3.1.6,§3.1
+13,Per-component explained variance not preserved,not obtained,S4.1,§3.2
+14,Record for loss weights estimated from magnitude ratios not obtained,not obtained,S4.1.3,§3.4
+15,Explicit grounds for fixed module-creation order not obtained,not obtained,S4.2,§3.4
+16,ACFs of settlement and anchor-force series not obtained,not obtained,S5.4,§4.1
+17,Loss-weight tier not validated on the validation set,known limitation,S4.4.6,§3.4
+18,"Rolling-origin protocol covers only V7/K13 and V0, H in {2,10}, first 5 seeds",partial,S4.5,§3.4
+19,Per-(fold x seed) paired details not written to disk,not obtained,S4.3.5,§4.2
+20,Per-section unloading depth and nonlinear depth injection not performed,not done,S3.2.5,§4.2
+21,Deep model not rerun on the raw increment target,not done,S2.3,§3.2
+22,Learning-curve and capacity scan use 5 seeds,partial,S4.6.4,§4.4
+23,Cross-site digitization by a single reader,partial,S6.1.7,§4.4
+24,Architecture choice covers only the eight ablation variants,partial,S4.4,§4.2
+25,"K recheck uses existing weights, not retraining under the same budget",partial,S4.4.5,"§3.4, §4.2"
+26,Small validation segment (31 steps),known limitation,S4.4.6,§3.4

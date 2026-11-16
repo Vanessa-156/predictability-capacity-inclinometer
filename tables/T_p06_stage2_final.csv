@@ -1,0 +1,4 @@
+﻿variant,model,K,tier,seed,n_train_ts,n_val_win,n_test_ts,params,RMSE_last,R2_last,RMSE_zero_last,skill,arch
+V7_wo_VerticalGCN,Ours(V7),7,main,42,149,11,32,122990,1.56482854,0.88374267,1.3720101,-0.30082508,V7_wo_VerticalGCN
+V7_wo_VerticalGCN,Ours(V7),7,main,15,149,11,32,122990,1.56430655,0.88382022,1.3720101,-0.29995737,V7_wo_VerticalGCN
+V7_wo_VerticalGCN,Ours(V7),7,main,77,149,11,32,122990,1.56151573,0.88423439,1.3720101,-0.2953231,V7_wo_VerticalGCN

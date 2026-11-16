@@ -1,0 +1,13 @@
+﻿phase,layer,T_obs,T_thr_95,verdict
+full,full depth,1.0037,1.2205,unusable
+full,shallow (<3 m),1.0427,1.2609,unusable
+full,mid (3-8 m),1.0881,1.077,boundary crossing
+full,deep (8-16 m),1.0446,1.2069,unusable
+excavation,full depth,1.0,1.1949,unusable
+excavation,shallow (<3 m),0.9877,1.0831,unusable
+excavation,mid (3-8 m),1.2667,1.1389,boundary crossing
+excavation,deep (8-16 m),1.2583,1.1258,boundary crossing
+post-excavation,full depth,0.9962,1.177,unusable
+post-excavation,shallow (<3 m),0.994,1.2,unusable
+post-excavation,mid (3-8 m),1.0116,1.212,unusable
+post-excavation,deep (8-16 m),0.9964,1.2568,unusable

@@ -1,0 +1,6 @@
+﻿fold,n_train_ts,n_val_ts,best_variant,best_model,best_K,best_tier,best_val_RMSE
+0,60,30,V7_wo_VerticalGCN,Ours(V7),7,main,1.25994245
+1,82,30,V7_wo_VerticalGCN,Ours(V7),7,main,1.92865343
+2,105,30,V5_Full_Model,V5_Full,7,main,1.82359729
+3,128,30,V7_wo_VerticalGCN,Ours(V7),7,main,2.51540799
+4,151,30,V5_Full_Model,V5_Full,7,main,1.30546994

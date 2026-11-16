@@ -1,0 +1,4 @@
+﻿variant,model,K,tier,seed,n_train_ts,n_val_win,n_test_ts,params,RMSE_last,R2_last,RMSE_zero_last,skill
+V7_wo_VerticalGCN,Ours(V7),13,locked,42,149,11,32,124970,1.81537489,0.84353418,1.3720101,-0.75072539
+V7_wo_VerticalGCN,Ours(V7),13,locked,15,149,11,32,124970,1.70049384,0.86271061,1.3720101,-0.53615666
+V7_wo_VerticalGCN,Ours(V7),13,locked,77,149,11,32,124970,1.60569879,0.87759054,1.3720101,-0.36966242

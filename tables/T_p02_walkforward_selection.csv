@@ -1,0 +1,13 @@
+H,fold,val_selected,test_winner,consistent
+2,1,V0,V0,True
+2,2,V0,V0,True
+2,3,V0,Ours,False
+2,4,V0,V0,True
+2,5,V0,V0,True
+2,6,Ours,V0,False
+10,1,Ours,V0,False
+10,2,Ours,V0,False
+10,3,V0,Ours,False
+10,4,Ours,V0,False
+10,5,V0,Ours,False
+10,6,Ours,Ours,True

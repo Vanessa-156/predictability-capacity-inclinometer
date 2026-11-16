@@ -1,0 +1,49 @@
+﻿Candidate,Target,n,M1 increment ρ,M2 increment MI,M3 sign gain,M4 lead,MLEV,M1 thr,M2 thr,M3 thr,M4 thr,MLEV thr,$T_{\text{obs}}$,$T_{0.95}$,argmax,Verdict
+GNSS surface displacement ds,229_d0.55,282,0.0572,0.2511,0.1889,0.0978,0.9276,0.1449,0.2065,0.0794,0.1668,0.7150,2.3790,1.0586,M3_sign_gain,crossing (re-examination required)
+GNSS surface displacement ds,229_d1.35,282,0.0379,0.0920,,0.0526,0.9547,0.1218,0.0463,0.1190,0.1492,0.7252,1.9857,1.2118,M2_inc_mi,crossing (re-examination required)
+GNSS surface displacement ds,229_d3.05,282,0.0691,0.0204,0.2500,0.1086,0.9675,0.1099,0.0426,0.0789,0.1407,0.7292,3.1667,1.1920,M3_sign_gain,crossing (re-examination required)
+GNSS surface displacement ds,229_d4.75,282,0.0000,0.0449,0.1429,0.0411,0.9726,0.1100,0.0457,0.1364,0.1479,0.7196,1.0476,1.1667,M3_sign_gain,unusable
+GNSS surface displacement ds,230_d0.55,282,0.0080,0.0702,0.1667,0.1028,0.9759,0.1144,0.0773,0.0763,0.1422,0.7095,2.1852,1.2222,M3_sign_gain,crossing (re-examination required)
+GNSS surface displacement ds,230_d1.35,282,0.0254,0.0420,0.3000,0.0254,0.9724,0.1253,0.0589,0.0862,0.1606,0.7120,3.4800,1.1161,M3_sign_gain,crossing (re-examination required)
+GNSS surface displacement ds,230_d3.05,282,0.0957,0.0948,0.2447,0.0993,0.9743,0.1171,0.0760,0.0438,0.1481,0.7469,5.5890,1.1726,M3_sign_gain,crossing (re-examination required)
+GNSS surface displacement ds,230_d4.75,282,0.0179,0.0181,,0.0783,0.9496,0.1249,0.0310,0.1857,0.1548,0.7077,0.5824,1.1229,M2_inc_mi,unusable
+rainfall,229_d0.55,282,0.5816,0.2936,0.4124,0.5816,0.9541,0.3414,0.2181,0.1695,0.3575,0.7692,2.4327,1.0506,M3_sign_gain,crossing (re-examination required)
+rainfall,229_d1.35,282,0.3288,0.0568,0.3824,0.3288,0.9695,0.2036,0.0491,0.1825,0.2445,0.7357,2.0946,1.0870,M3_sign_gain,crossing (re-examination required)
+rainfall,229_d3.05,282,0.0884,0.0227,0.1769,0.0884,0.9834,0.1219,0.0433,0.0789,0.1423,0.7419,2.2410,1.2182,M3_sign_gain,crossing (re-examination required)
+rainfall,229_d4.75,282,0.0448,0.0294,0.2143,0.0448,0.9683,0.1131,0.0464,0.1591,0.1411,0.7090,1.3469,1.1714,M3_sign_gain,crossing (re-examination required)
+rainfall,230_d0.55,282,0.1198,0.0512,0.0217,0.1378,0.9757,0.1777,0.0791,0.1017,0.2106,0.7302,0.6744,1.1298,M1_inc_corr,unusable
+rainfall,230_d1.35,282,0.1601,0.0320,0.0231,0.1601,0.9833,0.1105,0.0590,0.0776,0.1404,0.7284,1.4486,1.1620,M1_inc_corr,crossing (re-examination required)
+rainfall,230_d3.05,282,0.0518,0.0662,0.1532,0.0801,0.9824,0.1281,0.0778,0.0484,0.1505,0.7170,3.1667,1.1169,M3_sign_gain,crossing (re-examination required)
+rainfall,230_d4.75,282,0.0939,0.0102,0.1316,0.1608,0.9239,0.1307,0.0306,0.1857,0.1657,0.7083,0.9707,1.1986,M4_lead_max,unusable
+adjacent air temperature TMP_0m,229_d0.55,282,0.5891,0.2672,0.2210,0.5891,0.9329,0.0666,0.2062,0.0494,0.0867,0.7253,8.8430,1.1604,M1_inc_corr,crossing (re-examination required)
+adjacent air temperature TMP_0m,229_d1.35,282,0.2638,0.0583,0.3413,0.2792,0.9587,0.1127,0.0463,0.1190,0.1349,0.7088,2.8667,1.1333,M3_sign_gain,crossing (re-examination required)
+adjacent air temperature TMP_0m,229_d3.05,282,0.0379,0.0309,0.1228,0.0379,0.9788,0.1112,0.0431,0.0877,0.1596,0.7304,1.4000,1.1000,M3_sign_gain,crossing (re-examination required)
+adjacent air temperature TMP_0m,229_d4.75,282,0.0185,0.0522,0.0682,0.0185,0.9869,0.1227,0.0461,0.1591,0.1498,0.6742,1.1316,1.1429,M2_inc_mi,unusable
+adjacent air temperature TMP_0m,230_d0.55,282,0.1359,0.0581,0.1780,0.1359,0.9849,0.1114,0.0780,0.0763,0.1476,0.7272,2.3333,1.1460,M3_sign_gain,crossing (re-examination required)
+adjacent air temperature TMP_0m,230_d1.35,282,0.0934,0.0476,0.1983,0.1017,0.9841,0.1178,0.0597,0.0776,0.1469,0.7174,2.5556,1.1643,M3_sign_gain,crossing (re-examination required)
+adjacent air temperature TMP_0m,230_d3.05,282,0.0696,0.0712,0.1498,0.0696,0.9844,0.1128,0.0773,0.0484,0.1459,0.7213,3.0952,1.2604,M3_sign_gain,crossing (re-examination required)
+adjacent air temperature TMP_0m,230_d4.75,282,0.1410,0.0263,0.1571,0.1410,0.9560,0.1170,0.0309,0.1571,0.1444,0.7052,1.2057,1.1901,M1_inc_corr,crossing (re-examination required)
+adjacent soil temperature TMP_2.5m,229_d0.55,282,0.0949,0.2556,0.0152,0.0949,0.9451,0.1054,0.2069,0.0622,0.1272,0.7709,1.2354,1.1157,M2_inc_mi,crossing (re-examination required)
+adjacent soil temperature TMP_2.5m,229_d1.35,282,0.2434,0.0476,0.3730,0.2434,0.9980,0.1141,0.0471,0.1190,0.1556,0.7557,3.1333,1.1333,M3_sign_gain,crossing (re-examination required)
+adjacent soil temperature TMP_2.5m,229_d3.05,282,0.1245,0.0392,0.3750,0.1378,0.9751,0.1209,0.0430,0.0877,0.1511,0.7716,4.2750,1.1447,M3_sign_gain,crossing (re-examination required)
+adjacent soil temperature TMP_2.5m,229_d4.75,282,0.0158,0.0506,0.1364,0.0209,0.9589,0.1109,0.0465,0.1364,0.1468,0.7244,1.0878,1.1841,M2_inc_mi,unusable
+adjacent soil temperature TMP_2.5m,230_d0.55,282,0.0544,0.0822,0.3291,0.0604,0.9666,0.1127,0.0773,0.0763,0.1409,0.7559,4.3143,1.1836,M3_sign_gain,crossing (re-examination required)
+adjacent soil temperature TMP_2.5m,230_d1.35,282,0.1430,0.0621,0.3448,0.1507,0.9820,0.1139,0.0589,0.0862,0.1499,0.7683,4.0000,1.1120,M3_sign_gain,crossing (re-examination required)
+adjacent soil temperature TMP_2.5m,230_d3.05,282,0.3892,0.1296,0.3935,0.3892,0.9809,0.1242,0.0771,0.0438,0.1465,0.7375,8.9888,1.2226,M3_sign_gain,crossing (re-examination required)
+adjacent soil temperature TMP_2.5m,230_d4.75,282,0.0300,0.0275,0.1857,0.0326,0.8894,0.1168,0.0308,0.1571,0.1523,0.7426,1.1818,1.1894,M3_sign_gain,unusable
+adjacent soil temperature TMP_4.5m,229_d0.55,282,0.2063,0.2551,0.1054,0.2063,0.7185,0.1200,0.2072,0.0667,0.1396,0.7902,1.7194,1.1904,M1_inc_corr,crossing (re-examination required)
+adjacent soil temperature TMP_4.5m,229_d1.35,282,0.2920,0.0411,0.0500,0.3145,0.5823,0.1248,0.0474,0.1190,0.1534,0.7748,2.3403,1.1953,M1_inc_corr,crossing (re-examination required)
+adjacent soil temperature TMP_4.5m,229_d3.05,282,0.1038,0.0390,0.1538,0.1320,0.7284,0.1241,0.0434,0.0877,0.1537,0.8025,1.7538,1.1128,M3_sign_gain,crossing (re-examination required)
+adjacent soil temperature TMP_4.5m,229_d4.75,282,0.0223,0.0474,0.1098,0.0571,0.7671,0.1092,0.0464,0.1364,0.1439,0.7477,1.0227,1.2858,M2_inc_mi,unusable
+adjacent soil temperature TMP_4.5m,230_d0.55,282,0.0666,0.0821,0.1435,0.0666,0.7653,0.1209,0.0787,0.0763,0.1538,0.7859,1.8812,1.1111,M3_sign_gain,crossing (re-examination required)
+adjacent soil temperature TMP_4.5m,230_d1.35,282,0.1251,0.0577,0.0727,0.1912,0.7166,0.1090,0.0600,0.0776,0.1546,0.7817,1.2370,1.1598,M4_lead_max,crossing (re-examination required)
+adjacent soil temperature TMP_4.5m,230_d3.05,282,0.3854,0.1153,0.1238,0.3854,0.7222,0.1251,0.0774,0.0484,0.1627,0.7665,3.0805,1.1905,M1_inc_corr,crossing (re-examination required)
+adjacent soil temperature TMP_4.5m,230_d4.75,282,0.0121,0.0133,0.1061,0.0353,0.8742,0.1084,0.0311,0.1571,0.1467,0.7774,0.6749,1.1818,M3_sign_gain,unusable
+water content VWC_2.5m,229_d0.55,282,0.0257,0.1834,0.1121,0.0325,0.8439,0.1116,0.2073,0.0665,0.1323,0.7807,1.6859,1.0818,M3_sign_gain,crossing (re-examination required)
+water content VWC_2.5m,229_d1.35,282,0.1377,0.0353,0.0789,0.1377,0.7678,0.1186,0.0462,0.1190,0.1525,0.7801,1.1606,1.1335,M1_inc_corr,crossing (re-examination required)
+water content VWC_2.5m,229_d3.05,282,0.1312,0.0350,0.2353,0.2360,0.8687,0.1218,0.0427,0.0877,0.1496,0.7653,2.6824,1.1705,M3_sign_gain,crossing (re-examination required)
+water content VWC_2.5m,229_d4.75,282,0.0517,0.0356,0.1667,0.0841,0.9015,0.1114,0.0471,0.1364,0.1469,0.7255,1.2222,1.1667,M3_sign_gain,crossing (re-examination required)
+water content VWC_2.5m,230_d0.55,282,0.0994,0.0596,0.2264,0.1201,0.9001,0.1144,0.0780,0.0763,0.1483,0.7383,2.9686,1.1114,M3_sign_gain,crossing (re-examination required)
+water content VWC_2.5m,230_d1.35,282,0.1292,0.0566,0.1602,0.1566,0.8656,0.1247,0.0594,0.0776,0.1456,0.7441,2.0647,1.1274,M3_sign_gain,crossing (re-examination required)
+water content VWC_2.5m,230_d3.05,282,0.2139,0.0719,0.2513,0.2815,0.8702,0.1289,0.0774,0.0438,0.1621,0.7524,5.7395,1.1665,M3_sign_gain,crossing (re-examination required)
+water content VWC_2.5m,230_d4.75,282,0.0635,0.0258,0.1364,0.0912,0.9637,0.1170,0.0311,0.1571,0.1501,0.7464,0.8678,1.1818,M3_sign_gain,unusable

@@ -1,0 +1,15 @@
+﻿item,data_item,status,section
+1,"layout map, X/Y coordinates, CX numbering, orientation mapping",complete,S1.2.2
+2,"wall-toe elevation, casing length and bottom, guide-groove azimuth A0, sign convention",partial,S1.3.3
+3,plan locations and orientations of the five selected sections,verified,S1.3.4
+4,"excluded-section numbers, completeness, depth, failure reasons",verified,S1.2.6
+5,"support-zone parameters (wall, anchors, struts, king posts, wells)",partial,S1.3.6
+6,zone-wise excavation timeline,partial,S1.3.7
+7,"settlement-point totals, numbering, layout, method and accuracy",partial,S1.3.8
+8,"anchor-cable totals, numbering, rows, elevations, lock-off, load cell",partial,S1.3.9
+9,"water-level gauge model/range/accuracy, screen levels, pairing",partial,S1.3.10
+10,inclinometer metrology and system uncertainty budget,partial,S1.3.11
+11,forward/reverse return-trip difference and datum checks,not obtained,S1.3.12
+12,missing-rate distribution and imputation shares,verified,S2.1.3
+13,"time-grid length, valid records, completeness definition",verified,S2.1.3
+14,provenance of Table S1 parameters,partial,S1.3.15

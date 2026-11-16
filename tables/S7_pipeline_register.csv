@@ -1,0 +1,14 @@
+﻿id,pipeline,K,seeds_folds,v7_k13_rmse_h10,reported_at,convention
+1,ablation,13,30 seeds,1.5687,"Table S6, Fig. S4.1.1",ablation pipeline
+2,model comparison,13,30 seeds,1.5687,Table 2,same scale as #1
+3,stress test clean control,13,30 seeds,1.5700,"§4.3, Fig. 5",stress pipeline
+4,K scan,7/13/21,30 seeds,1.575/1.570/1.587,§4.2,dedicated scan pipeline
+5,increment-scale joint report,13,30 seeds,1.5687,Table 2,zero-training recomputation
+6,time-block inference,13,30 seeds,anchor #1,"§3.4, S5.4",block length L*=3
+7,rolling-origin CV,13,6 folds,different domain,S4.5,retraining; 120/120
+8,conformal calibration,13,30 seeds,calibration on val residuals,"§4.2, S5.5",zero-training
+9,selection-leakage check,7/13/21/155,8 variants x 5 horizons x 30 seeds,anchor #1,"§3.4, S4.4",zero-training forward pass
+10,LOOCV spatial generalization,13,5 folds x 5 seeds x 5 horizons,not applicable,"§4.2, S4.3",different evaluation domain
+11,excavation-phase A/B,8 (or 5),30-row blocks,not applicable,§4.2,paired A/B only
+12,excavation depth as fifth input,13,30 seeds,4D 1.5687 to 5D 1.5791,"§4.2, S3.2",retraining; 180/180
+13,configuration sensitivity,13,4 configs x 30 seeds,per configuration,§4.3,retraining required

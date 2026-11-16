@@ -1,0 +1,21 @@
+﻿component,parameter,value
+temporal encoder,kernel size,3
+temporal encoder,dilations,1/2/4
+temporal encoder,channels per dilation,32
+temporal encoder,activation,gated
+graph convolution,kernel,Gaussian on planar distance + geological similarity
+graph convolution,distance/geology weight,7:3
+graph convolution,clip,3 sigma
+graph convolution,vertical/horizontal spacing ratio,17-48
+PhysicsGate,width,input channels (+1 per injected variable)
+cross-node attention,heads,1
+vertical graph convolution,status,disabled in final model
+temporal pooling,mode,mean
+prediction head,readout,global mean pooling + full-field coefficient head
+model,V7 parameter count,124970
+model,V5 parameter count,133290
+training,optimizer,AdamW
+training,learning rate,1e-3 / 5e-4
+training,batch size,32
+training,max epochs,400
+training,patience,40

@@ -1,0 +1,10 @@
+﻿item,main_text,si,status
+selected sections,5,5,match
+nodes,155,155,match
+depth range,0.5-15.5 m,0.5-15.5 m,match
+time instants,213,213,match
+raw readings,"24,987","24,987",match
+original same-instant share,51.18%,51.18%,match
+mapped share,38.49%,38.49%,match
+short-gap share,5.47%,5.47%,match
+invalid share,4.86%,4.86%,match

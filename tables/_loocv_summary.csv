@@ -1,0 +1,9 @@
+﻿item,value
+"pooled p, H=2",0.324
+"pooled p, H=6",0.701
+"pooled p, H=8",0.79
+"pooled p, H=10",0.794
+"pooled p, H=12",0.925
+all (fold x seed) p,0.16
+"held-out better, fraction",68/125
+5-seed LOOCV baseline H=10,1.6436
