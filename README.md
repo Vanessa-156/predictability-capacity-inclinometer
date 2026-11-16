@@ -104,7 +104,34 @@ The remaining files are per-seed, per-configuration, per-horizon or per-depth de
 
 Raw inclinometer, settlement, water-level and anchor-force records are project data and are not included. A small number of SI pointers refer to items held in the project source archive (station coordinates, the 734-row IQR screening table, the 55,380-row quality detail, the realized seed list, the 29-project table and a few pairwise tables). These are marked `source-archive` in `MANIFEST.csv`; the manuscript does not depend on any single one of them for a conclusion.
 
-## 7. License and citation
+## 7. Running with your own data
+
+Machine-specific paths are neutralized to four environment variables resolved in `_env.py`:
+
+| Variable | Meaning | Default |
+|---|---|---|
+| `DATA_ROOT` | root of the monitoring data | `<repo>/example_data` |
+| `AUX_ROOT` | root of the saved experiment artefacts | `<repo>/example_artifacts` |
+| `WORK_ROOT` | repository work root | `<repo>` |
+| `PYENV_ROOT` | Python environment prefix (docstring examples only) | empty |
+
+Expected layout under `DATA_ROOT`:
+
+```text
+ceshi14/MoXin/data/CX{2,3,8,13,15}.xlsx      # time, point, depth, cumulative displacement
+ceshi14/MoXin/data/斜测点坐标.xlsx            # point, X, Y
+ceshi14/shuiwei/时间统一+插值/SW{1,4,7}.xlsx  # time, water-level depth, cumulative change
+ceshi14/date/raw/地质参数表.xlsx              # thickness, cohesion, friction, modulus, unit weight, Poisson, K0
+shuju/沉降/{6,18,31}.xlsx                     # time, cumulative settlement
+```
+
+Anchor-force files (`ML*.xlsx`) are read from `WORK_ROOT/ML数据/`.
+
+## 8. Dependencies
+
+See `requirements.txt`: Python 3.10+, PyTorch (CUDA optional), NumPy, SciPy, Pandas, scikit-learn, Matplotlib, seaborn, PyWavelets, openpyxl, LightGBM and thop. All scripts fall back to CPU when CUDA is unavailable.
+
+## 9. License and citation
 
 - Code and scripts: MIT (`LICENSE`).
 - Derived data and tables: CC BY 4.0.
