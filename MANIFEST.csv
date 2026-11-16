@@ -116,7 +116,9 @@ tables/S1_anchor_cables.csv,tables,13,4,distributed,"The 13 anchor cables used, 
 tables/S1_data_items.csv,tables,14,4,distributed,Status of the 14 data-description items
 tables/S1_literature_scan.csv,tables,15,7,distributed,Fifteen-record literature scan behind S1.1
 tables/S2_snr.csv,tables,5,5,distributed,Per-section SNR improvement before and after denoising
+tables/S3_screen_cost.csv,tables,5,7,distributed,Deterministic screening cost behind SI Table S16
 tables/S4_layer_parameters.csv,tables,20,3,distributed,Layer and training hyperparameters described in S4.1
+tables/S7_claim_evidence.csv,tables,17,6,distributed,Claim-evidence register behind main-text Table 6
 tables/S7_pipeline_register.csv,tables,13,7,distributed,Per-pipeline conventions behind reported RMSE values
 tables/T1_MAE_last_wide.csv,tables,14,16,distributed,
 tables/T1_R2_last_wide.csv,tables,14,16,distributed,

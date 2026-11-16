@@ -1,0 +1,6 @@
+﻿method,model_fit,calibration,selection,realized_fpr,verdict_granularity,deterministic_cost
+VICD Stage 1,no,250-1000 phase surrogates; 95% max-ratio,none,5.0-8.3%,three-state,B x 4 x |tau| correlations per record
+"PMI, 20-bin",no,100-250 phase surrogates,"stepwise MI, residualized",5.0-10.0%,binary,B MI estimates per candidate per step
+"PMI, rank",no,100 phase surrogates,stepwise rank MI,6.7%,binary,B rank-MI estimates per candidate per step
+"LASSO, lagged",yes,5-fold time-series CV; null 95th percentile,penalty by CV,5.0%,binary,5 fits plus null calibration per candidate set
+Admit all,no,none,none,-,none,zero

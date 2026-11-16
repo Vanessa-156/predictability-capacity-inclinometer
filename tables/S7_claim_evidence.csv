@@ -1,0 +1,18 @@
+﻿id,claim,evidence,inference_unit,replication,scope
+1,VICD null calibration,Table S3,synthetic record,40 reps x 3 autocorrelations,correct at phi<=0.5; non-conservative at 0.9
+2,VICD positive control,Table S4,synthetic record,20 reps,design-specific; 95% detection at a=0.3
+3,Candidate variables unusable,Table 1,record,68,"primary site, increment scale"
+4,Verdict is not an averaging artefact,S3.1.11,node,155,"tests additivity, not power"
+5,Swapped-target asymmetry,S3.1.7,record,3-13,exploratory; records overlap in time
+6,Exclusion cost is bounded,S3.1.7,seed,30 paired,H=6; paired resolution about 2%
+7,Cross-method admission agreement,S3.1.10,record,68,same candidate set and increment series
+8,No detection-power advantage with matched lags,S3.1.13,synthetic replicate,60,differences below 0.1 unresolved
+9,Representation floor share,"Table 3, Fig. 4",seed,30,"PCA(0.90), K=13; two training protocols"
+10,Module removal changes error,Table S6,seed,30,locked protocol; signs reverse under standard
+11,Noise and missing nodes non-significant,"S5.1.4, S5.8",seed,30,tested disturbances; equivalence at +/-5%
+12,Density tiers shift the burden,Table 4,tier x seed,4 x 30,common 20-node domain
+13,Deep coverage degrades skill,S5.7,seed,30,evaluation domain changes
+14,Interval cannot resolve tiers,S5.5,window,30 seeds,"marginal, not conditional, coverage"
+15,No extra overfitting under a known basis,S4.3,fold,5 folds x 5 seeds,PCA basis includes held-out modes
+16,Model ranking not stable across folds,S4.5,fold,6 folds,different evaluation domain
+17,Boundary is state- and site-specific,"S6.2, S6.6, S6.7",window; site; project,12 gauges; 8 series; 29 projects,zero-training probes; sign structure only
