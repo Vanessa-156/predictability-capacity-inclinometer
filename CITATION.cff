@@ -1,26 +1,26 @@
 cff-version: 1.2.0
 message: "If you use this package, please cite both the article and this repository."
 title: "Reproduction package: representation-conditional predictability ceiling of multi-section inclinometer monitoring"
-version: 1.1.1
+version: 1.1.2
 date-released: 2026-11-17
 license: CC-BY-4.0
 authors:
   - family-names: Xu
     given-names: Xianyang
-    affiliation: "College of Aerospace and Civil Engineering, Harbin Engineering University"
+    affiliation: "College of Aerospace Engineering, Harbin Engineering University"
   - family-names: Jin
     given-names: Die
-    affiliation: "College of Aerospace and Civil Engineering, Harbin Engineering University"
+    affiliation: "College of Aerospace Engineering, Harbin Engineering University"
   - family-names: He
     given-names: Jian
-    affiliation: "College of Aerospace and Civil Engineering, Harbin Engineering University"
+    affiliation: "College of Aerospace Engineering, Harbin Engineering University"
   - family-names: Sun
     given-names: Xiaodan
-    affiliation: "College of Aerospace and Civil Engineering, Harbin Engineering University"
+    affiliation: "College of Aerospace Engineering, Harbin Engineering University"
     email: sunxiaodan@hrbeu.edu.cn
 preferred-citation:
   type: article
-  title: "Calibrating the representation-conditional predictability ceiling of multi-section inclinometer monitoring: a protocol demonstrated on a deep excavation"
+  title: "Bounding the PCA-representation-conditional predictability ceiling of multi-section inclinometer monitoring: a protocol demonstrated on a deep excavation"
   authors:
     - family-names: Xu
       given-names: Xianyang

@@ -1,8 +1,8 @@
 # Reproduction package: representation-conditional predictability ceiling of inclinometer monitoring
 
-Version **v1.1.1** (2026-11-17). This package accompanies the manuscript
+Version **v1.1.2** (2026-11-17). This package accompanies the manuscript
 
-> Xu X., Jin D., He J., Sun X. *Calibrating the representation-conditional predictability ceiling of multi-section inclinometer monitoring: a protocol demonstrated on a deep excavation.* Submitted to *Tunnelling and Underground Space Technology*.
+> Xu X., Jin D., He J., Sun X. *Bounding the PCA-representation-conditional predictability ceiling of multi-section inclinometer monitoring: a protocol demonstrated on a deep excavation.* Submitted to *Tunnelling and Underground Space Technology*.
 
 It contains the derived tables, the distributed data files and the convention register behind every number in the main text and the Supplementary Information (SI). Raw monitoring records are **not** distributed; the package contains only de-identified derived quantities.
 
@@ -51,13 +51,14 @@ All generator steps use a reduced scale so the archive stays small; they demonst
 | File | Rows | Content |
 |---|---:|---|
 | `SuppData_VICD_records_EN.csv` | 68 | Per-record VICD inputs: four statistics, 95% surrogate thresholds, $n$, $T_{\mathrm{obs}}$, $T_{\mathrm{thr}}$, binding indicator, Stage-1 verdict. |
-| `SuppData_derived_target_EN.csv` | 4,260 | De-identified derived target: section- and layer-mean displacement against a step index (5 sections × 4 depth layers × 213 steps). No dates or coordinates. |
 | `SuppData_stress_results.csv` | 70 | Stress-test cells: family, intensity, horizon, RMSE and SD for the fixed configuration and the baseline. |
 | `SuppData_model_results.csv` | 7,541 | Long-format model results: experiment, variant, horizon, seed, metric, value, SD, $n$, detail, source file. |
 | `SuppData_cross_site_results.csv` | 4,207 | Cross-site results: site, series, phase, horizon, metric, value, CI bounds, $n$, detail, source file. |
 | `SuppData_S6_water_pairwise_EN.csv` | 216 | Tan water-level pairs: $n$, M1–M4 and MLEV, thresholds, $T_{\mathrm{obs}}$, $T_{0.95}$, verdict. |
 | `SuppData_S6_liugou_records_EN.csv` | 48 | Liugou records (6 candidates × 8 targets): statistics, thresholds, $T_{\mathrm{obs}}$, $T_{0.95}$, verdict. |
 | `MANIFEST.csv` | 8 | Inventory of the data files, with row and column counts and status. |
+
+The de-identified displacement target and the three candidate-variable increment series are not distributed; they are available from the corresponding author under a data-sharing agreement.
 
 ## 3. Tables (`tables/`)
 
@@ -135,8 +136,8 @@ See `requirements.txt`: Python 3.10+, PyTorch (CUDA optional), NumPy, SciPy, Pan
 
 - Code and scripts: MIT (`LICENSE`).
 - Derived data and tables: CC BY 4.0.
-- Citation metadata: `CITATION.cff`; cite the article and this package (v1.1.1).
+- Citation metadata: `CITATION.cff`; cite the article and this package (v1.1.2).
 
-Contact: Xiaodan Sun, College of Aerospace and Civil Engineering, Harbin Engineering University, `sunxiaodan@hrbeu.edu.cn`.
+Contact: Xiaodan Sun, College of Aerospace Engineering, Harbin Engineering University, `sunxiaodan@hrbeu.edu.cn`.
 
 > **Data-sharing note.** The de-identified displacement target and the three section-mean candidate increment series are not distributed with this repository. They reproduce the project owner's monitoring records and are available from the corresponding author under a data-sharing agreement.

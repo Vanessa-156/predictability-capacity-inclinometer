@@ -65,13 +65,13 @@ tables/T_persist_baseline.csv,model_comparison,5,8,model_comparison result table
 tables/T_release_script_scan.csv,vicd,60,4,vicd result table,S3.1 / S4.1,Input admissibility and VICD calibration,tables/,online_release
 tables/T_robustness.csv,stress,70,9,stress result table,S4.3 / S5.8,Disturbance sensitivity of the error and bound,tables/,online_release
 tables/T_spectrum_by_density.csv,configuration,4,24,configuration result table,S4.3 / S5.1,Depth point density and depth coverage,tables/,online_release
-data/SuppData_VICD_records_EN.csv,submission_data,68,19,Per-record VICD inputs and Stage-1 verdicts (68 records),Data files,Core reported results,data/,submitted
+data/SuppData_VICD_records_EN.csv,submission_data,68,19,Per-record VICD inputs and Stage-1 verdicts (68 records),Data files,Core reported results,data/,online_release
 data/SuppData_derived_target_EN.csv,submission_data,4260,4,De-identified section- and layer-mean target series,Data files,Core reported results,data/,on_request
-data/SuppData_stress_results.csv,submission_data,70,8,"Stress-scan results (noise, missing, sparsification)",Data files,Core reported results,data/,submitted
-data/SuppData_model_results.csv,submission_data,7541,10,"Long table: model comparison, ablation, per-seed and walk-forward results",Data files,Core reported results,data/,submitted
-data/SuppData_cross_site_results.csv,submission_data,4207,11,"Long table: Tan, Liugou and 29-project cross-site results",Data files,Core reported results,data/,submitted
+data/SuppData_stress_results.csv,submission_data,70,8,"Stress-scan results (noise, missing, sparsification)",Data files,Core reported results,data/,online_release
+data/SuppData_model_results.csv,submission_data,7541,10,"Long table: model comparison, ablation, per-seed and walk-forward results",Data files,Core reported results,data/,online_release
+data/SuppData_cross_site_results.csv,submission_data,4207,11,"Long table: Tan, Liugou and 29-project cross-site results",Data files,Core reported results,data/,online_release
 source/T_stress_raw.csv,stress,70,8,Chinese-header source of SuppData_stress_results.csv (not released),S4.3 / S5.8,Disturbance sensitivity of the error and bound,not_released/,source_only
-data/SuppData_S6_water_pairwise_EN.csv,submission_data,216,17,Complete water-level pairwise table behind S6.4.4,S6.4.4,Input admissibility at the Tan site,data/,submitted
-data/SuppData_S6_liugou_records_EN.csv,submission_data,48,17,Complete per-record verdict table behind S6.6.2,S6.6.2,Cross-scenario applicability boundary,data/,submitted
+data/SuppData_S6_water_pairwise_EN.csv,submission_data,216,17,Complete water-level pairwise table behind S6.4.4,S6.4.4,Input admissibility at the Tan site,data/,online_release
+data/SuppData_S6_liugou_records_EN.csv,submission_data,48,17,Complete per-record verdict table behind S6.6.2,S6.6.2,Cross-scenario applicability boundary,data/,online_release
 data/SuppData_PCA_basis_K13.csv,submission_data,13,156,Retained PCA(0.90) projection basis P_K (K=13) fitted on the training increments over the 155-node field; rows PC1-PC13 and columns CX2_d0.5..CX15_d15.5; applied to mean-centred increments,§3.3 / §4.2,Representation floor and its K=13 truncation,data/,online_release
 data/SuppData_candidate_section_mean_increments.csv,submission_data,636,4,First differences of the section-mean candidate series behind the VICD Stage-1 test (water level m / settlement mm / anchor force kN; native units kept),§3.1 / §4.1,Input admissibility and VICD calibration,data/,on_request
