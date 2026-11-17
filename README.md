@@ -1,6 +1,6 @@
 # Reproduction package: representation-conditional predictability ceiling of inclinometer monitoring
 
-Version **v1.1.0** (2026-11-17). This package accompanies the manuscript
+Version **v1.1.1** (2026-11-17). This package accompanies the manuscript
 
 > Xu X., Jin D., He J., Sun X. *Calibrating the representation-conditional predictability ceiling of multi-section inclinometer monitoring: a protocol demonstrated on a deep excavation.* Submitted to *Tunnelling and Underground Space Technology*.
 
@@ -135,6 +135,8 @@ See `requirements.txt`: Python 3.10+, PyTorch (CUDA optional), NumPy, SciPy, Pan
 
 - Code and scripts: MIT (`LICENSE`).
 - Derived data and tables: CC BY 4.0.
-- Citation metadata: `CITATION.cff`; cite the article and this package (v1.1.0).
+- Citation metadata: `CITATION.cff`; cite the article and this package (v1.1.1).
 
 Contact: Xiaodan Sun, College of Aerospace and Civil Engineering, Harbin Engineering University, `sunxiaodan@hrbeu.edu.cn`.
+
+> **Data-sharing note.** The de-identified displacement target and the three section-mean candidate increment series are not distributed with this repository. They reproduce the project owner's monitoring records and are available from the corresponding author under a data-sharing agreement.

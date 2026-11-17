@@ -80,7 +80,7 @@ data/SuppData_S6_liugou_records_EN.csv,data,48,17,distributed,Liugou records (48
 data/SuppData_S6_water_pairwise_EN.csv,data,216,17,distributed,Tan water-level pairs (216)
 data/SuppData_VICD_records_EN.csv,data,68,19,distributed,Per-record VICD inputs and verdicts (68 records)
 data/SuppData_cross_site_results.csv,data,4207,11,distributed,"Cross-site results (4,207 rows)"
-data/SuppData_derived_target_EN.csv,data,4260,4,distributed,De-identified section- and layer-mean displacement target
+data/SuppData_derived_target_EN.csv,data,4260,4,on_request,De-identified section- and layer-mean displacement target (available from the corresponding author)
 data/SuppData_model_results.csv,data,7541,10,distributed,"Long-format model results (7,541 rows)"
 data/SuppData_stress_results.csv,data,70,8,distributed,Stress-test cells (70)
 figures_source/T_p06_deep_neg.csv,figures_source,155,7,distributed,
@@ -140,6 +140,8 @@ tables/T_g4_config_capacity.csv,tables,240,22,distributed,
 tables/T_g4_config_summary.csv,tables,8,29,distributed,
 tables/T_p02_autocorr.csv,tables,37,4,distributed,
 tables/T_p02_block_bootstrap.csv,tables,710,13,distributed,
+tables/T_p16_raw_target.csv,tables,12,22,distributed,
+tables/T_p17_combination.csv,tables,12,20,distributed,
 tables/T_p02_variance_components.csv,tables,31,7,distributed,
 tables/T_p02_walkforward.csv,tables,120,8,distributed,
 tables/T_p02_walkforward_fold.csv,tables,24,11,distributed,
@@ -185,3 +187,4 @@ tables/_loocv_paired.csv,tables,25,8,distributed,Within-fold paired tests
 tables/_loocv_pattern_corr.csv,tables,25,6,distributed,
 tables/_loocv_summary.csv,tables,8,2,distributed,LOOCV pooled tests and baseline
 tables/pca_floor_by_k.csv,tables,20,14,distributed,
+data/SuppData_PCA_basis_K13.csv,submission_data,13,156,distributed,PCA(0.90) basis P_K (K=13) over the 155-node target field; rows PC1-PC13 and columns CX2_d0.5..CX15_d15.5 (§3.3 / §4.2)
